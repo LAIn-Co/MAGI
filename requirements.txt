@@ -1,0 +1,10 @@
+chromadb==1.5.9
+datasets==5.0.0
+matplotlib==3.11.0
+matplotlib-inline==0.2.2
+networkx==3.6.1
+numpy==2.5.1
+pandas==3.0.3
+pyvis==0.3.2
+scikit-learn==1.9.0
+sentence-transformers==5.6.0

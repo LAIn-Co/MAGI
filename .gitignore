@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+
+.conda/
+
+# Bases de datos y modelos (No subir los GGUF gigantes ni la DB local)
+af5_chroma_db/
+pre_trained_models/
+past_versions/
+models/
+
+# Logs y archivos generados automáticamente
+.logs/
+*.html
+*.json
+*.log
+
+# Carpetas del sistema y editores
+lib/
+.DS_Store
+.idea/
+.vscode/

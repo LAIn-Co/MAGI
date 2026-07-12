@@ -1,0 +1,33 @@
+category,question,correct_answer_letter,predicted_answer,time_seconds,full_response
+abstract_algebra,"Find the degree for the given field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q.",B,C,58.72,Final Answer: Final Answer C...
+abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",C,C,53.13,Final Answer: Final Answer C
+abstract_algebra,Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^5 + 3x^3 + x^2 + 2x in Z_5,D,B,57.65,Final Answer: Final Answer B
+abstract_algebra,"Statement 1 | A factor group of a non-Abelian group is non-Abelian. Statement 2 | If K is a normal subgroup of H and H is a normal subgroup of G, then K is a normal subgroup of G.",B,C,54.92,Final Answer: Final Answer C...
+abstract_algebra,"Find the product of the given polynomials in the given polynomial ring. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 in Z_8[x].",B,B,54.73,Final Answer: Final Answer B...
+abstract_algebra,"Statement 1 | If a group has an element of order 15 it must have at least 8 elements of order 15. Statement 2 | If a group has more than 8 elements of order 15, it must have at least 16 elements of order 15.",A,B,53.0,Final Answer: Final Answer B
+abstract_algebra,Statement 1 | Every homomorphic image of a group G is isomorphic to a factor group of G. Statement 2 | The homomorphic images of a group G are the same (up to isomorphism) as the factor groups of G.,A,B,56.51,Final Answer: Final Answer B
+abstract_algebra,Statement 1 | A ring homomorphism is one to one if and only if the kernel is {0}. Statement 2 | Q is an ideal in R.,D,A,54.82,A
+abstract_algebra,Find the degree for the given field extension Q(sqrt(2) + sqrt(3)) over Q.,B,A,64.37,A
+abstract_algebra,Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^3 + 2x + 2 in Z_7,C,C,59.22,Final answer: C...
+abstract_algebra,"Statement 1 | If H is a subgroup of G and a belongs to G then |aH| = |Ha|. Statement 2 | If H is a subgroup of G and a and b belong to G, then aH and Hb are identical or disjoint.",C,C,76.03,Final Answer: C
+abstract_algebra,"If A = {1, 2, 3} then relation S = {(1, 1), (2, 2)} is",C,B,52.8,Final Answer: B
+abstract_algebra,"Find the order of the factor group (Z_11 x Z_15)/(<1, 1>)",A,C,58.15,Final Answer: C
+abstract_algebra,The polynomial x^3 + 2x^2 + 2x + 1 can be factored into linear factors in Z_7[x]. Find this factorization.,C,B,40.79,Final Answer: B...
+abstract_algebra,Find the maximum possible order for an element of S_n for n = 10.,C,C,58.5,Final Answer: C
+anatomy,A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral,A,A,47.16,Final Answer: A
+anatomy,"A ""dished face"" profile is often associated with",B,A,63.03,"A ""dished face"" profile is often associated with a protruding mandible due to reactivation of the condylar cartilage by acromegaly."
+anatomy,Which of the following best describes the structure that collects urine in the body?,A,C,56.58,Final Answer: C
+anatomy,Which of the following structures is derived from ectomesenchyme?,C,B,57.71,Final Answer: B
+anatomy,Which of the following describes the cluster of blood capillaries found in each nephron in the kidney?,B,B,53.8,B
+anatomy,A patient suffers a broken neck with damage to the spinal cord at the level of the sixth cervical vertebra.,B,A,53.46,A
+anatomy,Which of the following anatomical regions of abdomen lies just distal to the sternum?,A,C,42.95,C...
+anatomy,Which of the following best describes the human body's defense mechanism against environmental bacteria?,B,C,53.84,Final Answer: C
+anatomy,The palatine processes begin to fuse at,C,B,57.75,B
+anatomy,Primary motor cortex activity results in,D,A,61.62,A
+anatomy,You notice that your patient's submandibular lymph nodes are enlarged. You would look for potential infection sites in the,D,B,63.53,B
+anatomy,A patient suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve. Which of the following signs will be present?,D,A,68.06,A
+anatomy,Which of the following statements is true of the temporomandibular joint?,D,A,61.14,A
+anatomy,Laryngoscopic examination of the vocal folds after suspected recurrent laryngeal nerve damage usually shows that the vocal fold on the injured side is tensed and in an intermediate position between adduction and abduction. This is because,B,,66.73,"The vocal fold on the injured side, after suspected recurrent laryngeal nerve damage, appears tensed and in an intermediate position due to the cricothyroid muscle being paralyzed while the interarytenoids are fully active. This results in a position between adduction and abduction, as seen during laryngoscopic examination."
+anatomy,Which one of the following statements about the growth of the mandible is correct?,A,B,49.83,B
+astronomy,"What is true for a type-Ia (""type one-a"") supernova?",A,A,65.51,Final Answer: A
+astronomy,If you know both the actual brightness of an object and its apparent brightness from your location then with no other information you can estimate:,D,A,68.46,Final Answer: A
