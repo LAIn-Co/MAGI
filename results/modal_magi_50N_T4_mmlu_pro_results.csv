@@ -1,0 +1,490 @@
+category,question,correct_letter,predicted,is_correct,response
+law,"A woman was standing in the aisle of a subway car and put her purse on the seat next to her. A man approached the woman from behind and grabbed the purse off the seat. He then pushed the woman out of the way and ran out of the subway car while carrying the purse. The man was apprehended on the subway platform while in possession of the purse. In a jurisdiction that follows the common law with respect to criminal offenses, of what crime can the man properly be convicted?",D,D,True,D
+law,"A federal grand jury was investigating a corporation whose tanker ship had spilled crude oil into environmentally sensitive waters. The grand jury issued a subpoena requiring the corporation to produce all emails and internal documents regarding the corporation's knowledge of the risks of an oil spill. The corporation has objected, citing its Fifth Amendment privilege against self-incrimination. Can the subpoena be enforced?",B,E,False,E
+law,"A state has recently enacted a statute requiring all prospective voters in state elections who wish to write-in a candidate to print the candidate's full name, and designate the office for which the candidate is running. The statute provides that such information must be written on the ballot in ink inan appropriate space. A write-in candidate is a German-American and is of the opinion that he needs a large turnout of German voters in order to win the election. As a result, his campaign manager decides to mail to every registered German voter a tear-off sticker, which bears the candidate's name and office for which he is running. Since many native German people are not proficient in reading and writing English, the campaign manager believes that many of the voters will have difficulty writing the candidate's name and office on the ballot. As a result, the campaign manager has mounted an extensive media campaign to inform voters on how to apply the stickers to the ballot. Five months prior to the election an election official notifies the candidate's campaign committee that the tear-off stickers do not comply with the state statute. In her letter, the official explains that state election officials are of the opinion that it is necessary for potential voters to write the candidate's name in ink. Therefore, she concludes that the stickers do not comply with statutory requirements. Three weeks later, the candidate filed suit in federal district court against state election officials, claiming that their interpretation of the state statute violates the U. S. Constitution. Which of the following sets forth the strongest constitutional argument the candidate could make against the interpretation of the statute by the state officials?",F,A,False,A
+law,"The defendant was walking down the street when he saw a woman struggling with a man over a briefcase. Unbeknownst to the defendant, the woman had just stolen the briefcase from the man on the street. Believing the woman to be the victim of an attack, the defendant intervened and punched the man until the woman was able to get away with the briefcase. Confused as to why he wasn't being hailed as a hero by the woman, the defendant eventually realized that he had been an unwitting accomplice to the woman's theft. The defendant apologized profusely to the man and went home. According to the alter ego rule, which of the following statements is correct with respect to the amount of force that the defendant was entitled to use in the woman's defense?",A,C,False,C
+law,"Two college students were members of the same fraternity. During a fraternity party, the defendant pulled out a gun, pointed it at the other student and said, ""Beg for your life, sucker. "" The student, who knew that the defendant had a reputation as a practical joker, said, ""Get lost, you jerk. "" The defendant then pulled the trigger and shot the student to death. A statute in this jurisdiction provides: ""Any intentional and premeditated killing with malice aforethought is murder in the first degree. Murder in the second degree is any killing that occurs during the commission or attempted commission of a serious or inherently dangerous felony. Manslaughter includes all other types of unlawftil homicide and unjustifiable killings. ""The defendant was subsequently prosecuted for killing the student. At trial, the defendant testified that a fellow fraternity member gave him the gun before the shooting and told him that it was unloaded. If the jury believes the defendant, it should find him",E,G,False,G
+law,"It was raining hard one evening as a cab driver was looking for one last passenger. A passenger flagged him down and directed him to take her home. The cab driver recognized the passenger as a former girlfriend, and the passenger invited him into her house when they arrived. Unknown to the cab driver, the passenger was an undercover police officer who worked in the sex crimes unit. When they were inside the passenger's house, the cab driver made sexual advances toward the passenger, who responded by kissing him and holding his hand. The cab driver was about to kiss the passenger again, when she got up to answer the phone in the kitchen. If the cab driver is subsequently arrested and charged with the attempted rape of the passenger, he should be found",C,F,False,F
+law,"A widower was the record owner of a lemon grove, a 30-acre parcel of land in a suburb. The widower lived in a farmhouse on the lemon grove and used the property to raise produce. Adjoining the lemon grove directly to the west was a 10-acre farm that was owned in fee simple by a farmer. There was a four-lane highway that adjoined the lemon grove directly to the east. The widower, by way of gift, executed a deed naming his daughter as grantee. The deed granted to the daughter and her heirs an antebellum mansion located near the southern edge of the lemon grove. The antebellum mansion was accessible by a little- used road that ran west to east from the farmlgrove border to the four-lane highway along the southern boundary of the grove. The daughter recorded her deed and took immediate possession of the property. A short while later, the daughter and the farmer fell in love and began seeing each other quite frequently. In order for the farmer to reach the daughter's house, it was necessary for him to travel over the little-used road across the lemon grove. Many years later, the farmer, who was still having an affair with the daughter, met her father at a Rotary Club meeting. They struck up a conversation, and the widower asked the farmer, ""Have you been driving your pickup along that little-used back road on my property?"" The farmer, who was afraid to tell the widower about his love affair with the daughter, responded with a half-truth, ""Yes, I've been using it as a shortcut to the four-lane highway. "" Unaware that the farmer was also using the path to get to the antebellum mansion to see the daughter, the widower said, ""No problem, I just wanted to be sure that it was you who was using the road. ""Thereafter, the widower found out about his daughter's relationship with the farmer. Infuriated, the widower confronted the farmer and told him, ""Listen, you lying sneak, if I catch you on my property again, I'm going to have you arrested for trespass. "" The farmer replied, ""Sorry, Pops, but I've acquired an easement over that roadway, and I'll continue to use it anytime I want. ""Then, the widower institutes an appropriate action to enjoin the farmer from using the roadway across the lemon grove. If the widower prevails, it will be because the farmer's use was",G,C,False,C
+law,"A patient who had surgery to repair a rupture in her spleen followed up with a full body MRI due to excruciating pain that had developed. During the MRI, the technicians saw at least two identifiable sponges that had been left in her body. She had to be hospitalized for additional surgery. The patient sued the hospital and doctor for medical malpractice. She did not produce the printouts of the MRI. Instead, she attempted to testify to what she observed on the MRI scan. The defense objected and insisted that she must produce the actual MRI printouts. What is the most likely ruling of the trial judge with respect to the objection?",E,E,True,E
+law,"Defendant was arrested on February 1 and released one month later on March 1 after being charged with a felony. On December 1 of the same year as his arrest, he filed a motion to discharge since no trial or other action had occurred to that point. The court held a hearing 3 days after the motion was filed. Defendant should be",A,A,True,A
+law,"A defendant, on trial for robbery, took the stand and testified in his own behalf. On cross-examination, the prosecuting attorney asked the defendant whether he had committed false pretenses by making long-distance telephone calls by the unauthorized use of a credit card number. The defendant replied, ""That's a lie, I never did. "" In rebuttal, the prosecuting attorney called the court officer to testif' that the defendant admitted committing false pretenses. The court officer further testified, however, that the defendant was granted immunity from prosecution in exchange for his testimony against others. The court officer's testimony is",J,B,False,B
+law,"A general contractor about to bid on a construction job for an office building invited a carpenter and several others to bid on the carpentry work. The carpenter agreed to bid if the general contractor would agree to give the carpenter the job provided that his bid was lowest and the general contractor was awarded the main contract. The general contractor so agreed. The carpenter, incurring time and expense in preparing his bid, submitted the lowest carpentry bid. The general contractor used the carpenter's bid in calculating its own bid, which was successful. Which of the following best supports the carpenter's position that the general contractor is obligated to position that the general contractor is obligated to award the carpentry subcontract to the carpenter?",I,A,False,A
+law,"Congress has recently enacted a statute legalizing marijuana. The law, signed by the President, imposes a tax of $1 on each pack of marijuana cigarettes sold in the United States. In an inseverable portion of that same law, the entire proceeds of the tax are appropriated on a continuing basis for direct payments to an art museum. The public museum is dedicated to the collection of pictures, artifacts, weapons, and other historical memorabilia of past wars. Which of the following most clearly has standing to attack the constitutionality of this appropriation of the tax monies to the art museum?",I,A,False,A
+law,"An uncle owns his property in fee simple. The uncle executes and delivers a deed to the property with the following granting clause:""To my nephew and my niece for the life of my nephew, then to my gardener. ""As a result of the grant, which of the following is the most accurate statement regarding the ownership rights of the property?",H,A,False,A
+law,"A high school junior was charged by the school administration with violating certain sections of the disciplinary code, specifically, he was charged with being disrespectful to a teacher by using profanity and with using abusive language to a fellow student. The principal, sent the student's parents a letter notifying them of the three-day suspension for the above-mentioned charges. The suspension was to take effect on February 1. The principal also included a copy of the disciplinary code in the letter. On January 19, the student and his mother met with the principal in his office to discuss the matter, and the student admitted that he used abusive language to a fellow student. On January 22, the student's parents received a letter informing them that his teacher had upheld the school administration's decision to suspend their son. They were then notified of a hearing on the recommended suspension to be held at the school. The parents did not attend this hearing, but were advised that the school board upheld the suspension, effective February 1. Which of the following most accurately summarizes the applicable rule of constitutional law with respect to the student's suspension?",A,A,True,A
+law,"Two cousins took title to real estate as joint tenants with the right of survivorship. The first cousin put up his interest in the joint tenancy as security for a $20,000 loan and signed a judgment note. It was later entered as a judgment against the first cousin's interest in the real estate. The first cousin died a year later. The second cousin decided to sell the property, but the mortgagee filed an action to prevent the sale and to enforce his interest in the property. The second cousin defended on the basis that any lien on the first cousin's interest in the property was extinguished on the first cousin's death. Will the court enforce the lien of the mortgagee against the sale of the property by the surviving second cousin?",D,B,False,B
+law,"A teenage male was on trial on charges of illegally entering an owner's property and stealing a car. The witness can only confirm for the prosecution that a car was stolen, the model and type of car, and that it was missing from the property on a certain date. The defense asks witness ""isn't it possible that my client did not steal the car, that someone else did it, and that the police are lying about the charges against him? The prosecution objected to the question. Will the court likely sustain the objection?",C,A,False,A
+law,"A man was charged with tax fraud. He wished to offer evidence, on his behalf, of his honesty while running for mayor. During his political campaign, he refused to lie about a psychiatric problem in his past, and his honesty cost him the election. The man was quoted as saying, ""If I lied, I'd be mayor today, but that's no way to win an election. ""The BEST argument of the objector to such evidence in the tax fraud case would be which of the following?",G,C,False,C
+law,Which statement best explains the purpose of Hart's distinction between 'being obliged' and 'having an obligation'?,B,G,False,G
+law,Maine's famous aphorism that 'the movement of progressive societies has hitherto been a movement from Status to Contract' is often misunderstood. In what way?,B,A,False,A
+law,Maine's famous aphorism that 'the movement of progressive societies has hitherto been a movement from Status to Contract' is often misunderstood. In what way?,C,A,False,A
+law,Which of the following purposes does the 'internal point of view' play in Hart's concept of law?,A,D,False,D
+law,Which statement below best represents Durkheim's view of the function of punishment?,A,B,False,B
+law,What is the major difference between naturalism and positivism?,A,C,False,C
+law,What is the major difference between naturalism and positivism?,C,D,False,D
+law,Was the use of armed force permitted prior to the United Nations Charter?,G,A,False,A
+other,What was the significance of the Gulf of Tonkin resolution?,C,D,False,D
+other,Which statement is true about focus group research?,C,A,False,A
+other,"As the single-person public relations staff of a public transit agency, you are tasked with increasing the number of people who ride your buses each month. Your target audiences are lower-income individuals, college students, people with basic educations and people for whom English is a Second Language. When preparing to craft a primary message, what should you do first?",B,A,False,A
+other,Newsletters generally fall in to which writing category?,G,A,False,A
+other,"You seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive recycling center, despite strong opposition from community organizations. You have to design a program to win approval for a similar project proposed by your company. Your peer gives you a brief piece of advice that succinctly describes the foundation of his successful program. What is most likely your peer's advice for a successful communication program?",F,F,True,F
+other,Which traditional news criterion would you expect to be most important in public relations messages distributed through the mass media?,E,A,False,A
+other,"According to The Federalist Papers, federalism has which of the following effects on political factions?",F,B,False,B
+other,"Interest groups representing businesspeople and investors are often among the most successful lobbying groups in Washington, D.C., for all of the following reasons EXCEPT",G,C,False,C
+other,House members are more concerned about their committee assignments than are senators because,F,A,False,A
+other,The majority of Supreme Court justices,B,D,False,D
+other,Which of the following statements best characterizes cooperative federalism?,B,B,True,B
+other,In what ways have governments responded to the threat of TNC post-Cold War?,D,D,True,D
+other,In what ways does gender shape the conceptualization of nationhood and conflict?,F,A,False,A
+other,Traditional approaches seek to explain why and how states have sought security. Which answer best describes the approach of traditional Security Studies?,D,A,False,A
+other,Which of the following statements is not applicable to the Securitization process?,C,D,False,D
+other,"According to Krause and Williams, what agenda would most likely attract scholars to the 'broad church' of security studies?",A,A,True,A
+other,What external strategies do elites employ?,B,A,False,A
+other,Which of the following is an important reason to advocate the process of desecuritization?,A,A,True,A
+other,Are strategies of Arms Control and Deterrence useful in cyber-security?,D,C,False,C
+other,Which of the following policies did the New Labour government not pursue?,A,B,False,B
+other,The case of the former Soviet Union supports Kerr et al.'s (1960) claim that:,I,G,False,G
+other,'Scientific' theories in the nineteenth century tried to explain race in naturalistic terms. Which of the following ideas was not considered?,D,A,False,"A, B, C, D, E, G, H, I, J"
+other,The 'new racism' refers to:,A,A,True,A
+other,"According to a study by Sprecher, Barbee, and Schwartz (1995), women were more likely than men to have ________ following their first act of intercourse.",H,B,False,B
+other,"Over the past several decades, attitudes toward premarital sex have __________; attitudes toward extramarital sex have __________.",D,A,False,A
+economics,Which of the following would be classified under C when calculating GDP?,G,C,False,C
+economics,The aggregate demand curve is,A,C,False,C
+economics,Which of the following is a tool used by the Fed to increase the money supply?,B,D,False,D
+economics,If the world price of copper exceeds the domestic (U.S.) price of copper we would expect,I,B,False,B
+economics,The natural rate of unemployment,A,A,True,A
+economics,Which of the following would shift the aggregate demand curve to the right?,F,A,False,A
+economics,Crowding out,B,A,False,A
+economics,The GDP Deflator differs from the CPI in that the GDP Deflator,B,A,False,A
+economics,Marginal revenue equals marginal cost at the point where,I,A,False,A
+economics,"When the price of pears increases, we expect the following:",E,A,False,A
+economics,Which of the following statements is true for a firm in a perfectly competitive industry?,A,A,True,A
+economics,"When a firm is earning a normal profit from the production of a good, it is true that",D,A,False,A
+economics,The market for Cincinnati Reds baseball tickets is currently in equilibrium. Which of the following events would most likely increase the consumer surplus received by Reds fans?,D,A,False,A
+economics,Which of the following is an example of a long-run adjustment for the owners of a small café?,G,G,True,G
+economics,"A student decides that, having already spent three hours studying for an exam, she should spend one more hour studying for the same exam. Which of the following is most likely true?",C,A,False,A
+economics,What could the government do to most effectively avoid a free rider problem?,A,A,True,A
+economics,"Which of the following statements are true concerning information criteria?
+
+(i) Adjusted R-squared is an information criterion
+
+(ii) If the residual sum of squares falls when an additional term is added, the value of the information criterion will fall
+
+(iii) Akaike's information criterion always leads to model orders that are at least as large as those of Schwarz's information criterion
+
+(iv) Akaike's information criterion is consistent",E,D,False,D
+economics,"The purpose of ""augmenting"" the Dickey-Fuller test regression is to",H,D,False,D
+economics,Which one of the following criticisms of the Dickey-Fuller/Engle-Granger approach to dealing with cointegrated variables is overcome by the Engle-Yoo (EY) procedure?,D,B,False,B
+economics,"Which of the following statements are true concerning the autocorrelation function (acf) and partial autocorrelation function (pacf)?
+
+i) The acf and pacf will always be identical at lag one whatever the model
+
+ii) The pacf for an MA(q) model will in general be non-zero beyond lag q
+
+iii) The pacf for an AR(p) model will be zero beyond lag p
+
+iv) The acf and pacf will be the same at lag two for an MA(1) model",A,A,True,A
+economics,Why do economists make seasonal adjustmentsin economic data before trying to isolate long-term trends?,D,D,True,D
+economics,Distinguish between the transfer earnings of a piece of land andeconomic rent on a piece of land.,C,C,True,C
+economics,"The circular flow model of pure capitalism does not include an entire set of transactions which normally occur in a ""real-life"" economy. What set does it leave out?",C,C,True,C
+economics,"Why are the industrial producing capital goods and consumer durables typically hit hardest by a recession, insofar as production and employment are concerned?",A,A,True,A
+economics,"""Allowing the prices of goods to rise in periods when none of the good is being produced is immoral, because the higher prices do not induce a larger output. They merely give unwarranted profits to those who are lucky enough to own the goods. Either prices should be prevented from rising or the government should take over ownership in order to prevent unjust enrichment quotas.""Do you agree withthis analysis ?If so, why?If not, why not?",A,A,True,A
+business,"Typical advertising regulatory bodies suggest, for example that adverts must not: encourage _________, cause unnecessary ________ or _____, and must not cause _______ offence.",I,F,False,F
+business,"Managers are entrusted to run the company in the best interest of ________. Specifically, they have a duty to act for the benefit of the company, as well as a duty of ________ and of _______.",F,A,False,A
+business,"There are two main issues associated with _____ sizing. _______ is a key issue as due to the information policy of the corporation it can be argued that employees have a right to know if they are being made redundant. _______ is a second issue, particularly the ________ package that employees receive when laid off.",J,A,False,A
+business,_______ locate morality beyond the sphere of rationality in an emotional 'moral impulse' towards others.,C,H,False,H
+business," Some of key differences between Islamic finance and conventional finance include - prohibition of charging and paying _______, prohibition on ______ and ______ transactions, prohibition of sinful investment and requirement for all financial products to be backed by __________.",G,A,False,A
+business, Which of the following are the three broad groups of organizational characteristics segmentation criteria?,A,C,False,C
+business," Pine and Gilmore (1999) derive four distinct realms of experience, based on two dimensions. What are these dimensions?",D,D,True,D
+business," Which type of research methods are designed to elicit responses to predetermined, standardized questions from many respondents?",J,G,False,G
+business,"Where the price is set low relative to the competition to gain market share, this strategy is known as:",E,E,True,E
+business,"Once a train pulls out of a station, or an aeroplane takes off or a film starts, those seats are lost and can never be sold. This is referred to as:",F,F,True,F
+business,"A marketing research firm contracts with clients to conduct a complete marketing research project from data collection, analysis, and reporting. It is a__________ firm.",E,E,True,E
+business,The six dimensions usually considered to constitute the external marketing environment include all of the following except:,G,C,False,C
+business,What is the term for the 'rule of thumb' type of bias in decision making?,J,B,False,B
+business,As what is ensuring that one individual does not carry the burden of a whole work task referred to?,D,A,False,A
+business,What theory is built around the principle that 'people make choices regarding how to behave based on values and beliefs'?,F,A,False,A) Social Learning
+business,How does lateral communication in an organisation occur?,J,J,True,J
+business,"The stock of the CCC Corporation is currently valued at $12 and is assumed to possess all the properties of geometric Brownian motion. It has an expected annual return of 15%, an annual volatility of 20%, and the annual risk-free is 10%. Using a binomial lattice, determine the price of a call option on CCC stock maturing in 10 monthes time with a strike price of $14 (Let the distance between nodes on your tree be 1 month in length).",F,D,False,D
+business,"George is seen to place an even-money $100,000 bet on the Bulls to win the NBA Finals. If George has a logarithmic utility-of-wealth function and if his current wealth is $1,000,000, what must he believe is the minimum probability that the Bulls will win?",A,A,True,A
+business,"Boy Alcott and Jon Buxton are partners in a steel company. They share the net income in proportion to their average investments. On January 1, Alcott invested $4,000 and Buxton invested $5,000. On May 1, Alcott invested an additional $2,000 and Buxton invested $1,750. On September 1, Alcott withdrew $500. On November 1, each partner invested an additional $2,000. The net profit for the year was $8,736. Find each partner's share of the profit.",B,H,False,H
+business,"TheAlforsCompany had a beginning inventory of $30,000, Jan 1, 1974. During the year, purchases amounted to $87,500, net sales to $102,000. Assuming that the gross profit rate is 40% of the net sales, what is the ending inventory using the gross profit method of inventory evaluation?",D,A,False,A
+business,"(a) Given the two discount series of 30-10-2(1/2) % and 25-15-2%, which is better? (b) Given the discount series 15-15% and the single rate of 30%, which is better?",J,A,False,A
+business,"On July 7, Magee Data stock sold at a high of 23(1/8) and a low of 22(5/8). Giant Industrials sold for a high of 24(1/4) and a low of 23(1/2). Mr. Taylor purchased 300 shares of Magee Data at the high of the day and 400 shares of Giant Industrials at the low of the day. What was the cost of his purchase?",I,C,False,C
+business,"During a riot, Mr. Winter's car was overturned causing $346.50 in damage.Mr. Winter had $50-deductible col-lision insurance, but no comprehensive coverage. How much will theinsurance company pay Mr. Winter?",E,A,False,A
+business,"Janet Firestone purchased an option on a stock for $175 giving her the right to buy 100 shares at 14(1/2) within 90 days. One month later, she exercised her option and then sold the stock on the same day for 17. What was her profit on the stock?",H,B,False,B
+business,"Margaret Denault recently rented a truck to drive 516 miles in days and 17 hours, using 54 gallons of gasoline. The rental company charged her $32 per day, $.22 per mile, and $.445 per gal-lon of gas. Extra hours were charged $2.75 per hour. Find the total cost of the rental.",J,A,False,A
+math,Statement 1 | A ring homomorphism is one to one if and only if the kernel is {0}. Statement 2 | Q is an ideal in R.,H,A,False,A
+math,Statement 1 | R is a splitting field of some polynomial over Q. Statement 2 | There is a field with 60 elements.,H,A,False,A
+math,"Statement 1 | Any set of two vectors in R^2 is linearly independent. Statement 2 | If V = span(v1, ... , vk) and {v1, ... , vk} are linearly independent, then dim(V) = k.",C,A,False,A
+math,Statement 1 | Every permutation is a cycle. Statement 2 | Every cycle is a permutation.,H,D,False,D
+math,Find all c in Z_3 such that Z_3[x]/(x^3 + x^2 + c) is a field.,B,A,False,A
+math,Statement 1 | Every group of order 159 is cyclic. Statement 2 | Every group of order 102 has a nontrivial proper normal subgroup.,D,C,False,C
+math,"A subset H of a group (G,*) is a group if",J,F,False,F
+math,Statement 1 | There exists a free abelian group of every positive integer rank. Statement 2 | A finitely generated abelian group is free abelian if its Betti number equals the number of elements in some generating set.,J,A,False,A
+math,Statement 1 | The external direct product of cyclic groups is cyclic. Statement 2 | The external direct product of D_3 and D_4 is isomorphic to D_12.,I,E,False,E
+math,Statement 1 | Every nonzero free abelian group has an infinite number of bases. Statement 2 | Every free abelian group of rank at least 2 has an infinite number of bases.,G,G,True,G
+math,Which of the following is a binomial random variable?,A,B,False,B
+math,"A publisher used standard boxes for shipping books. The mean weight of books packed per box is 25 pounds, with a standard deviation of two pounds. The mean weight of the boxes is one pound, with a standard deviation of 0.15 pounds. The mean weight of the packing material used per box is two pounds, with a standard deviation of 0.25 pounds. What is the standard deviation of the weights of the packed boxes?",H,D,False,D
+math,"Biologists around the world have increased efforts at conservation. Monitoring wildlife populations is important so that appropriate management efforts can be implemented, but such monitoring is often difficult. One study found a cheap and easy way to estimate the number of nesting sites of terns (a type of seabird) by monitoring the number of calls heard per minute. More calls happen when there are more birds, as one would expect. In fact, it turned out that the number of calls explained 71% of the variation in the abundance of nests between breeding sites. Which of the following statements is correct about the correlation between the number of calls and the abundance of nests?",E,D,False,D
+math,"Two dice are rolled simultaneously. If both dice show 6, then the player wins $20; otherwise the player loses the game. It costs $2.00 to play the game. What is the expected gain or loss per game?",A,A,True,A
+math,"A company with offices in five different countries is interested in estimating the proportion of its employees in favor of banning smoking on the office premises. It is known that the views of people from different countries on issues like smoking tend to vary due to the influence of different local social structures. Which of the following is an appropriate sampling technique to use in this situation, and why?",F,F,True,F
+math,"A random sample of 25 men and a separate random sample of 25 women are selected to answer questions about attitudes toward abortion. The answers were categorized as ""pro-life"" or ""pro-choice."" Which of the following is the proper null hypothesis for this situation?",A,A,True,A
+math,"The number of customers served per day by a large department store is normally distributed, with a mean of 3,250 customers and a standard deviation of 320. Find the range of customers served on the middle 50 percent of days.",B,B,True,B
+math,"Suppose that 54% of the graduates from your high school go on to 4-year colleges, 20% go on to 2-year colleges, 19% find employment, and the remaining 7% search for a job. If a randomly selected student is not going on to a 2-year college, what is the probability she will be going on to a 4-year college?",F,B,False,B
+math,"Given the probabilities P(A) = 0.3 and P(B) = 0.2, what is the probability of the union P(A ∪ B) if A and B are mutually exclusive? If A and B are independent? If B is a subset of A?",D,C,False,C
+math,"Self-efficacy (the belief that one has control over one's situation) as it related to job satisfaction was studied. When a group of teachers rated their ability to control their situation and their satisfaction with their job, the two variables had a correlation of 0.30. Which statement follows from this correlation?",J,I,False,I
+math,Find the number that makes the statement true: 0.32 g = _ cg.,D,C,False,C
+math,A salad dressing is made by combining 2 parts vinegar with 5 parts oil. How many ounces of oil should be mixed with 9 ounces of vinegar?,B,B,True,B
+math,"A model of a park was built on a scale of 1.5 centimeters to 50 meters. If the distance between two trees in the park is 150 meters, what is this distance on the model?",F,A,False,A
+math,What number multiplied by 4 equals 36?,F,B,False,B
+math,Which ratio can form a proportion with 6 over 9?,B,B,True,B
+philosophy,Select the best translation into predicate logic. David teaches Chris. (c: Chris; d: David; Txy: x teaches y),A,A,True,A
+philosophy," Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
+(~M ⊃ ~N) ∨ (O ≡ N) and (~M · N) · [(~O ∨ ~N) · (O ∨ N)]",D,E,False,E
+philosophy," Which of the following propositions is an immediate (one-step) consequence in PL of the given premises?
+U ⊃ W
+W ⊃ (X ≡ ~Y)
+(X ≡ ~Y) ⊃ Z
+~Z",I,A,False,A
+philosophy,Select the best translation into predicate logic. Holly loves Frances. (f: Frances; h: Holly; Lxy: x loves y),A,A,True,A
+philosophy,Select the best translation into predicate logic. Earth isn't bigger than Jupiter. (e: Earth; j: Jupiter; Bxy: x is bigger than y),E,A,False,A
+philosophy, Select the best translation into predicate logic. All birds live in some nest. (Bx: x is a bird; Nx: x is a nest; Lxy: x lives in y),I,A,False,A
+philosophy," Use indirect truth tables to determine whether the following argument is valid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
+L ⊃ [(M ∨ ~N) ⊃ O]
+(N ⊃ O) ⊃ (~P ⊃ Q)
+R ⊃ ~Q / L ⊃ (R ⊃ P)",D,C,False,C
+philosophy,"Identify the conclusion of the following argument. Remember to remove any conclusion indicators. It is wrong for society to kill a murderer. This follows for the reason that if a murderer is wrong in killing his victim, then society is also wrong in killing the murderer. And a murderer is wrong in killing his victim.",J,G,False,G
+philosophy," According to Reiman, van den Haag's argument leads to the conclusion that",D,A,False,A
+philosophy, Ashford's article is meant to address a particular paralysis in the face of,H,D,False,D
+philosophy," According to Reiman, van den Haag's arguments in favor of the death penalty",D,H,False,H
+philosophy," What is Pence's main objective in his article ""Will Cloning Harm People?""",G,A,False,A
+philosophy," If a global ban would not be effective in prohibiting genetic engineering that goes beyond eliminating obvious defects, then Singer suggests which ""bolder"" strategy?",B,F,False,F
+philosophy, Collins suggests that the moral value of caring actions comes from,D,B,False,B
+philosophy," The most common form of cosmopolitanism is _____ cosmopolitanism, according to which those in a position to do so have an obligation to assist those in need because of poverty and to promote basic human rights.",E,B,False,B
+philosophy," The principle Arthur calls ""the greater moral evil rule""says that",D,B,False,B
+philosophy, Ross claims that the essential defect of utilitarianism is that it ignores,I,A,False,A
+philosophy, Christopher Heath Wellman defends the position that,A,A,True,A
+philosophy," According to Kant, an imperative that represents an action as a necessary means to something that is willed is what kind of imperative?",D,A,False,A
+philosophy, Baron cites a summary of Ali Soufan's Senate testimony to suggest that,C,C,True,C
+philosophy," According to Jaina traditions, who were the caityavasis?",G,D,False,D
+philosophy,"When did the Babylonian captivity of ""Exile"" begin?",G,G,True,G
+philosophy,"The ""Flower Sermon"" is associated with which form of Buddhism?",D,B,False,B
+philosophy,Another name for hasty conclusion is,D,D,True,D
+philosophy,The fallacy of reprehensible personality is a specific type of,A,B,False,B
+computer science,A method is to be written to search an array for a value that is larger than a given item and return its index. The problem specification does not indicate what should be returned if there are several such values in the array. Which of the following actions would be best?,B,D,False,D
+computer science,"In the program below, y is a positive integer (e.g. l, 2, 3, ...).
+ result ← 0
+ REPEAT 3 TIMES {
+ REPEAT y TIMES {
+ result ← result + 1
+ }
+ }",A,A,True,A
+computer science,Which of the following has the greatest potential for compromising a user's personal privacy?,A,D,False,D
+computer science,Which of the following is NOT a property of bitmap graphics?,F,C,False,C
+computer science,"Two expressions E and F are said to be unifiable if there are substitutions for the variables of E and F that make the expressions lexically identical. In the following three expressions, only w, x, y, and z are variables.
+I. f(w,w)
+II. f(x,1)
+III. f(y,g(z))
+Which pairs of these expressions is (are) pairs of unifiable expressions?",C,B,False,B
+computer science,"A particular disk unit uses a bit string to record the occupancy or vacancy of its tracks, with O denoting vacant and 1 denoting occupied. A 32-bit segment of this string has the hexadecimal value D4FE2003. The percentage of occupied tracks for the corresponding part of the disk, to the nearest percent, is",G,A,False,A
+computer science,"Array A contains 256 elements of 4 bytes each. Its first element is stored at physical address 4,096.
+Array B contains 512 elements of 4 bytes each. Its first element is stored at physical address 8,192.
+Assume that only arrays A and B can be cached in an initially empty, physically addressed, physically tagged, direct-mapped, 2K-byte cache with an 8-byte block size. The following loop is then executed.
+for (i = 0; i < 256; i++)
+        A[i] = A[i] + B[2*i];
+During the execution of the loop, how many bytes will be written to memory if the cache has a write-through policy?",A,A,True,A
+computer science,"What is the rank of the following matrix? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]",D,A,False,A
+computer science,"If N is the number of instances in the training dataset, nearest neighbors has a classification run time of",D,C,False,C
+computer science,"Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural networks trained with gradient descent with high probability converge to the global optimum.",J,A,False,A
+computer science,"Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews. Statement 2| The Penn Treebank has been used for language modeling.",A,A,True,A
+computer science,Which is true about Batch Normalization?,F,A,False,A
+computer science,Which among them has the strongest wireless security?,H,A,False,A
+computer science,"Encryption and decryption provide secrecy, or condentiality, but not",B,E,False,E
+computer science,Encapsulating Security Payload (ESP) belongs to which Internet Security Protocol?,B,E,False,E
+computer science,The bandwidth of an analog signal is 4kHz. An A/D converter is used to convert the signal from analog to digital. What is the minimum sampling rate for eliminating the aliasing problem? (in kHz),E,A,False,A
+computer science,How many trees are there on 5 unlabeled vertices?,A,B,False,B
+computer science,"Let a undirected graph G with edges E = {<0,2>, <2,4>, <3,4>, <1,4>}, which <A,B> represent Node A is connected to Node B. What is the minimum vertex cover of G if 0 is one of vertex cover? Represent the vertex cover in a list of ascending order.",D,B,False,B
+computer science,Roughly how many bits are required on the average to describe to 3 digit accuracy the decay time (in years) of a radium atom if the half-life of radium is 80 years? Note that half-life is the median of the distribution.,I,B,False,B
+computer science,"Maximize the entropy $H(X)$ of a non-negative integer-valued random variable $X$, taking values from 0 to infinity, subject to the constraint $E(X)=1$. Use base 2 logarithm to evaluate $H(X)$.",B,B,True,B
+computer science,In BASIC the RND function is used to generate a random number between 0 and 1. What statements would you use to: (a) generate integral random number between 0 and X - 1? (b) generate integral random number between 1 and X? (c) simulate the toss of a cubical die? (d) simulate a binary random choice taking values 1 or 2?,A,C,False,C
+computer science,List the common types of registers used in the computer and statetheir purpose.,A,A,True,A
+computer science,"You have just received a Basic Assembler Language programyou ran. As you turn to the execution page to check theprintout, you find that every fourth line of the program reads, for example, PSW =... 00004F17B4C4. What is the PSW and what information does it provide? In addition, what informationis provided in the three lines following the PSW statement?",J,J,True,J
+computer science,"Describe in words the function and the output of the following subroutine. SUBROUTINE GCD (I,J,K) IF (I - J) 1,4,2 1 L = J J = I I = L 2L = I-(I/J){_\ast}J IF(L) 3,4,3 3 I = J J = L GO TO 2 4 K = J RETURN END",A,A,True,A
+computer science,Which of the following is NOT a reasonable justification for choosing to busy-wait on an asynchronous event?,C,B,False,B
+physics,What is the significance of the 1:2:4 resonance in the Jupiter's moons system?,I,E,False,E
+physics,We were first able to accurately measure the diameter of Pluto from:,D,B,False,B
+physics,What about asteroids makes them stand out in sky surveys searching for them?,D,A,False,A
+physics,Approximately how far away is the Andromeda Galaxy?,B,C,False,C
+physics,What is the source of the material that causes meteor showers?,J,A,False,A
+physics,How does the greenhouse effect work?,F,C,False,C
+physics,"White light is normally incident on a puddle of water (index of refraction 1.33). A thin (500 nm) layer of oil (index of refraction 1.5) floats on the surface of the puddle. Of the following, the most strongly reflected wavelength is",G,A,False,A
+physics,The coefficient of static friction between a small coin and the surface of a turntable is 0.30. The turntable rotates at 33.3 revolutions per minute. What is the maximum distance from the center of the turntable at which the coin will not slide?,E,C,False,C
+physics,"A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton’s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be",C,A,False,A
+physics,"Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)",J,D,False,D
+physics,"An organ pipe, closed at one end and open at the other, is designed to have a fundamental frequency of C (131 Hz). What is the frequency of the next higher harmonic for this pipe?",H,C,False,C
+physics,"Two spaceships approach Earth with equal speeds, as measured by an observer on Earth, but from opposite directions. A meterstick on one spaceship is measured to be 60 cm long by an occupant of the other spaceship. What is the speed of each spaceship, as measured by the observer on Earth?",F,A,False,A
+physics,"The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical to that of a hydrogen atom in which all the wavelengths are",I,A,False,A
+physics,"You drive a beat-up pickup truck along a straight road for $8.4 \mathrm{~km}$ at $70 \mathrm{~km} / \mathrm{h}$, at which point the truck runs out of gasoline and stops. Over the next $30 \mathrm{~min}$, you walk another $2.0 \mathrm{~km}$ farther along the road to a gasoline station.
+What is your overall displacement from the beginning of your drive to your arrival at the station?",D,D,True,D
+physics,A cell is roughly spherical with a radius of $20.0 \times 10^{-6} \mathrm{~m}$. Calculate the work required to expand the cell surface against the surface tension of the surroundings if the radius increases by a factor of three. Assume the cell is surrounded by pure water and that $T=298.15 \mathrm{~K}$.,E,E,True,E
+physics,A muscle fiber contracts by $3.5 \mathrm{~cm}$ and in doing so lifts a weight. Calculate the work performed by the fiber. Assume the muscle fiber obeys Hooke's law $F=-k x$ with a force constant $k$ of $750 . \mathrm{N} \mathrm{m}^{-1}$.,B,A,False,A
+physics,"A system consisting of $82.5 \mathrm{~g}$ of liquid water at $300 . \mathrm{K}$ is heated using an immersion heater at a constant pressure of 1.00 bar. If a current of $1.75 \mathrm{~A}$ passes through the $25.0 \mathrm{ohm}$ resistor for 100 .s, what is the final temperature of the water?",A,C,False,C
+physics,"Consider the half-cell reaction $\operatorname{AgCl}(s)+\mathrm{e}^{-} \rightarrow$ $\operatorname{Ag}(s)+\mathrm{Cl}^{-}(a q)$. If $\mu^{\circ}(\mathrm{AgCl}, s)=-109.71 \mathrm{~kJ} \mathrm{~mol}^{-1}$, and if $E^{\circ}=+0.222 \mathrm{~V}$ for this half-cell, calculate the standard Gibbs energy of formation of $\mathrm{Cl}^{-}(a q)$.",C,C,True,C
+physics,"Determine the root-mean-square (rms) values of displacement, velocity, and acceleration for a damped forced harmonic oscillator operating at steady state.",A,J,False,J
+physics,"A stone is dropped into a well and the splash is heard two seconds later. If sound travels 1100 ft/sec, what is the depth of the well?",J,A,False,A
+physics,A car battery supplies a currentI of 50 amp to the starter motor. How much charge passes through the starter in (1/2) min?,D,C,False,C
+physics,"A small boy pumps up his bicycle tires on a day when the temperature is 300°K. Find the temperature of the air in the bicycle pump if the tire pressures are to be 24.5 lb/in^2 and the air in the pump is assumed to be compressed adiabatically. For air, \gamma = 1.40.",B,B,True,B
+physics,"A newly discovered planet has twice the density of the earth, but the acceleration due to gravity on its surface is exactly the same as on the surface of the earth. What is its radius?",B,E,False,E
+physics,An electron is released from rest at one point in a uniform electric field and moves a distance of 10 cm in 10^-7 sec. What is the electric field strength and what is the voltage between the two points?,B,B,True,B
+physics,"The SLAC accelerator is capable of accelerating electrons to an energy of 4 × 10^10eV. If the number of electrons in the beam corresponds to a current of 6 x 10^\rule{1em}{1pt}5 A, (a) how many electrons arrive at the target each second and (b) how much energy, in joules, is deposited in the target each second?",C,B,False,B
+engineering,"What will be the number of lamps, each having 300 lumens, required to obtain an average illuminance of 50 lux on a 4m * 3m rectangular room?",C,C,True,C
+engineering,Stack is also known as,C,C,True,C
+engineering,The errors mainly caused by human mistakes are,A,C,False,C
+engineering,Power dissipation in ideal inductor is,H,B,False,B
+engineering,"In force-current analogy, electrical analogous quantity for displacement (x) is",G,C,False,C
+engineering,"An air-vapor mixture, initially at 60°F and 55 percent relative humidity, is heated until its temperature reaches 85°F. Determine (a) the initial and final specifichumidities, (b) the final relative humidity, and (c) the amount of heat added perlbmof dry air. Assume the mixture to be at a pressure of 14.7psia.",B,C,False,C
+engineering,"A tank contains saturated air-vapor mixture at 240°F and 55 psia. If the mixture contains 1 lb of dry air, calculate the volume of the tank and the mass of water vapor in the mixture.",G,A,False,A
+engineering,"Calculate the entropy change for (a) H_2O (s, - 20°C, 1atm) \rightarrow H_2O (s, 0°C, 1atm) (b) H_2O (s, - 20°C, 1atm) \rightarrow H_2O (1, 20°C, 1atm) Assume C_p (H_2O, 1) = 18 cal deg^-1 mole^-1, C_p (H_2O, s) = 9 cal deg^-1 mole^-1 and\DeltaH_fusion= 1440 cal deg^-1 mole^-1, andalso that the heat capacities are independent of temperature.",A,A,True,A
+engineering,"Three kilograms of air are at an initial state of 100kPa, 300°K.The air is then compressedpolytropicallywith n = 2.56, to a final pressure of 500kPa. Assuming constant specificheats, calculate the change in entropy using the threeideal gas equations.",F,E,False,E
+engineering,"What is the volume of a container required, to store 1500lbmof ethane (C_2H_6) at 160°F and a pressure of 1100 psig (gage pressure)?",J,A,False,A
+engineering,"What is the pressure inside a boiler which contains liquid water and steam at a temperature of 225°F. Assume that the enthalpy of vaporization of water at 212°F, 1 atm is 970.3 Btu/lbm and the specific volume of the vapor and liquid phases are 26.80 and 0.01672 ft^3/lbm respectively.",H,B,False,B
+engineering,"Calculate the roost probable distribution and the thermodynamicprobability (\Omega) for a system of eight moleculesdistributed among six available energy levels. The totalsystem energy is 4 ergs and the individual levels have energiesof 0, 1, 2, 3, 4, and 5 ergs, respectfully. Also determinethe entropy of the system.",I,A,False,A
+engineering,Heats of formation are usually estimated by using bond dissociationenergies. Determine the heat of formation for propane@ STP using the following bond energy data. DATA @ 298°K and 1atm Bond Bond energy (kcal/mole) C-C 80 C-H 99 H-H 103,J,C,False,C
+engineering,"Heat is transferred to a cylinder having a volume of 5m^3 containing0.05 m^3 of saturated liquid water and 4.95 m^3 of saturatedwater vapor at 0.1MPa, until the cylinder is filled withsaturated vapor. Calculate the amount of heat transferredfor the process.",H,E,False,E
+engineering,"Calculate the heat transferred when 100J of work is done on asystem consisting of 1 mole of an ideal gas. At constant temperature, \DeltaE = 0 for the expansion of an ideal gas.",A,A,True,A
+engineering,"A container ship has a cross-sectional area of 3,000 m^2 at the water line when the draft is 9m. What weight of containers can be added before the normal draft of 9.2m is reached. Assume salt water of weight density 10kN/m^3.",E,A,False,A
+engineering,"A submarine-launched missile, 1 m diameter by 5 m long, is to be studied in a water tunnel to determine the loads acting on it during its underwater launch. The maximum speed during this initial part of the missile's flight is 10 m s^-1. Calculate the mean water tunnel flow velocity if a 1/20 scale model is to be employed and dynamic similarity is to be achieved.",E,D,False,D
+engineering,"Determine the maximum discharge of water at 32°F that may be carried by a 3-in venturimeter, which has a coefficient of velocity of 0.95 without cavitation when the inlet pressure is 24 psia.",D,D,True,D
+engineering,"A model of a proposed low-speed crop-dusting plane is to be tested in a wind tunnel capable of maintaining velocities of 264 ft/s, using atmospheric air. The prototype plane has a design wing span of 27 ft and a proposed speed of 88 ft/s. In order to preserve dynamic similarity, what should be the wing span of the model if the wind tunnel is to operate at full speed? Assume the air at these low velocities to be essentially incompressible. In addition, assume that the temperature of atmospheric air and the temperature of the wind-tunnel air are the same.",A,A,True,A
+engineering,"Suppose a fluid particle moves according to the equations x = at, y =bt- ct^2, where a, b, c are constants. Find the normal and tangential accelerations.",G,G,True,G
+engineering,"The drag of a ship in water is assumed to depend on the Reynolds number and the Froude number so that [drag / {(1/2)(\rhoV^2A)}] = f [{(\rhoVD) / \mu}, (V^2 / gD)] It is proposed that a model one-tenth the size of a full-scale ship be tested in water and the results be used to predict the performance of the full-scale ship. Is this feasible?",C,F,False,F
+engineering,"Calculate the starting current and starting torque for the repulsion-start, induction-run motor described below: Rating:2 hp220 volts4 poles60 cycles Full-load torque = 96.5 oz-ft Maximum torque as induction motor = 228 oz-ft. r_1 = 0.765 \OmegaX_0 = 57.0 \Omega X_1 = 1.88 \OmegaK_r = 0.935 X_2 = 1.88 \Omegar_2 = 1.58 \Omega a = 4.68C (stator conductors) = 576 k_wl = 0.78r_c (short-circuited coils) = 0.00745\Omega a_3 = ratio of transformation stator to short-circuited coils a_3 = 56.25r_b(brush and brush contact) = 0.0140 \Omega Brush-shift angle = 16°",A,B,False,B
+engineering,"2,300 volt60-cycle power transformer. r_1 = 1.28 ohmsr_2 = 0.0467 ohm x_1= 4.24 ohmsx_2 = 0.162 ohm Calculate the regulation using the per-unit method.",J,A,False,A
+engineering,"(i)Whatis the circular-milarea of a wire (a) 0.1 in., (b)0.2 in., (c) 0.325 in. in diameter ? (ii) The resistance of a length of copper wire is 3.60 ohms at 20°C.What is its resistance at 80°C ?",D,G,False,G
+engineering,A certain load to be driven at 1750 r/min requires a torque of 60 lb. ft. What horsepower will be required to drive the load ?,B,C,False,C
+psychology,A person who received a Level 4 rating on the Rancho Los Amigos Scale of Cognitive Functioning:,E,G,False,G
+psychology,"You receive a phone call from Hermann H., age 28, who says he is “totally miserable” because of the recent breakup with his girlfriend and that he would like to begin therapy with you. During the first session with Hermann, you find out that his political views are completely repugnant to you, and you feel that you would not enjoy working with him. As an ethical psychologist, you should:",I,C,False,C
+psychology,"During the second stage of Kohlberg’s preconventional level of moral development, children obey rules because:",E,G,False,G
+psychology,The mental retardation associated with PKU is preventable with:,F,D,False,D
+psychology,Which of the following item difficulty (p) levels maximizes the differentiation of examinees into high- and low-performing groups:,B,C,False,C
+psychology,A person is most likely to be helped in an emergency situation when:,G,B,False,B
+psychology,The _______ is the least developed area of the brain at birth.,D,B,False,B
+psychology,The following measure of general cognitive abilities would be most appropriate for use with a nonverbal adolescent:,J,C,False,C
+psychology,Bartering as a form of payment for psychological services is,F,F,True,F
+psychology,An examinee who makes a number of confabulatory responses on the Rorschach has overgeneralized from a part of the inkblot to the whole. Such responses suggest which of the following?,G,A,False,A
+psychology,The information that family members continuously exchange and that helps minimize deviation and maintain the family's stability is referred to as ________ feedback.,B,A,False,A
+psychology,Images and sounds are maintained in sensory memory for:,A,C,False,C
+psychology,"""""""Vicarious liability"""" is most likely to be a concern when a psychologist is acting in the role of:""",B,H,False,H
+psychology,Electrical stimulation of the brain for the treatment of chronic pain,D,A,False,A
+psychology,Attentional load theory posits:,H,A,False,A
+psychology,__________ memory is the aspect of memory that is involved in the recall of information acquired within the past few hours to days.,I,D,False,D
+psychology,"Dr. Delbert Dinwoody is currently treating a 35-year-old client who has received a diagnosis of Alcohol Dependence. With the client's permission, Dr. Dinwoody invites the client's wife to participate in couple therapy. Inviting the wife to participate in therapy is:",E,A,False,A
+psychology,"You have been treating a teenage male you suspect may have some neurologic difficulties. You inform his parents about your concerns and suggest they send him to a neurologist for an evaluation. Sometime later, the neurologist contacts you and requests your progress notes. You should ___________.",C,C,True,C
+psychology,"When the correlation between high school students’ GPA and amount of time they spend studying each week is ____, this means that about 15% of variability in GPA is accounted for by amount of time spent studying.",E,A,False,A
+psychology,"With regard to minority and nonminority clients, psychotherapy is",D,D,True,D
+psychology,Kohlberg’s cognitive-developmental theory identifies which of the following as the initial stage of gender-role acquisition?,A,A,True,A
+psychology,Psychoanalytic theory states that anxiety arises from,B,B,True,B
+psychology,"According to ethics codes published by the American and Canadian Psychological Associations, if a psychologist knows of an ethical violation of a minor nature by a colleague, the psychologist",A,A,True,A
+psychology,"A college freshman obtains a score of 150 on his English final exam, a score of 100 on his math exam, a score of 55 on his chemistry exam, and a score of 30 on his history exam. The means and standard deviations for these tests are, respectively, 125 and 20 for the English exam, 90 and 10 for the math exam, 45 and 5 for the chemistry exam, and 30 and 5 for the history exam. Based on this information, you can conclude that the young man's test performance was best on which exam?",H,A,False,A
+psychology,"In organizations, the level of affective commitment is likely to be least predictive of which of the following?",A,B,False,B
+chemistry,"An unknown substance is found to have a high melting point. In addition, it is a poor conductor of electricity and does not dissolve in water. The substance most likely contains",C,C,True,C
+chemistry,Which of the following has an octet of electrons around the central atom?,D,C,False,C
+chemistry,How many milliliters of 0.250 M KOH does it take to neutralize completely 50.0 mL of 0.150 M H3PO4?,B,C,False,C
+chemistry,"Consider the Lewis structures for the following molecules: CO2, CO32-, NO2-, and NO3-. Which molecule or molecules exhibit sp2 hybridization around the central atom?",J,A,False,A
+chemistry,Which net ionic equation below represents a possible reaction that takes place when a strip of magnesium metal is oxidized by a solution of chromium (III) nitrate?,E,G,False,G
+chemistry,The simplest alkene has,B,A,False,A
+chemistry,"Hypochlorous acid is an unstable compound, and one of the decomposition products is chlorine gas, Cl2. The decomposition of the acid lowers its concentration over time. What effect will the decomposition of one-fourth of the acid have on the agreement between the endpoint of the titration and the equivalence point during a titration with standard sodium hydroxide?",A,F,False,F
+chemistry,An ideal solution is a,D,A,False,A
+chemistry,Which of the following is incorrectly named?,I,C,False,C
+chemistry,A 50.0 mL sample of 0.0025 M HBr is mixed with 50.0 mL of 0.0023 M KOH. What is the pH of the resulting mixture?,E,B,False,B
+chemistry,Helium effuses through a pinhole 5.33 times faster than an unknown gas. That gas is most likely,J,A,False,A
+chemistry,What is the maximum value of the z-component of the spin angular momentum of 43Ca? [I = 7⁄2],I,G,False,G
+chemistry,What is the strength (B1) of a 13C 90° pulse of duration 1 μs?,C,C,True,C
+chemistry,"A radioactive isotope, which is used in diagnostic imaging, has a half-life of 6.0 hours. If a quantity of this isotope has an activity of 150 mCi when it is delivered to a hospital, how much activity will remain 24 hours after delivery? (mCi = microcuries)",B,B,True,B
+chemistry,The +1 oxidation state is more stable than the +3 oxidation state for which group 13 element?,B,,False,Tl
+chemistry,"The molecular geometry of thionyl chloride, SOCl2, is best described as",C,B,False,B
+chemistry,"Calculate the relative occupancies of the α and β spin energy levels for a radical species with g = 2.05, at L- and W-band frequencies (take TS = 300 K).",A,A,True,A
+chemistry,What is the NMR frequency of 31P in a 20.0 T magnetic field?,G,A,False,A
+chemistry,"An electron confined to a metallic nanoparticle is modelled as a particle in a one-dimensional box of length $L$. If the electron is in the state $n=1$, calculate the probability of finding it in the following regions: $0 \leq x \leq \frac{1}{2} L$.",I,A,False,A
+chemistry,"Calculate $\Delta_{\mathrm{r}} G^{\ominus}(375 \mathrm{~K})$ for the reaction $2 \mathrm{CO}(\mathrm{g})+\mathrm{O}_2(\mathrm{~g}) \rightarrow 2 \mathrm{CO}_2(\mathrm{~g})$ from the values of $\Delta_{\mathrm{r}} G^{\ominus}(298 \mathrm{~K})$ : and $\Delta_{\mathrm{r}} H^{\ominus}(298 \mathrm{~K})$, and the GibbsHelmholtz equation.",D,C,False,C
+chemistry,Suppose that the normalized wavefunction for an electron in a carbon nanotube of length $L=10.0 \mathrm{~nm}$ is: $\psi=(2 / L)^{1 / 2} \sin (\pi x / L)$. Calculate the probability that the electron is between $x=4.95 \mathrm{~nm}$ and $5.05 \mathrm{~nm}$.,A,A,True,A
+chemistry,The chemical shift of the $\mathrm{CH}_3$ protons in acetaldehyde (ethanal) is $\delta=2.20$ and that of the $\mathrm{CHO}$ proton is 9.80 . What is the difference in local magnetic field between the two regions of the molecule when the applied field is $1.5 \mathrm{~T}$,E,C,False,C
+chemistry,"When ultraviolet radiation of wavelength $58.4 \mathrm{~nm}$ from a helium lamp is directed on to a sample of krypton, electrons are ejected with a speed of $1.59 \times 10^6 \mathrm{~m} \mathrm{~s}^{-1}$. Calculate the ionization energy of krypton.
+",C,E,False,E
+chemistry,"For an electron in a certain rectangular well with a depth of $20.0 \mathrm{eV}$, the lowest energy level lies $3.00 \mathrm{eV}$ above the bottom of the well. Find the width of this well. Hint: Use $\tan \theta=\sin \theta / \cos \theta$",H,A,False,A
+chemistry,"For the $\mathrm{H}_2$ ground electronic state, $D_0=4.4781 \mathrm{eV}$. Find $\Delta H_0^{\circ}$ for $\mathrm{H}_2(g) \rightarrow 2 \mathrm{H}(g)$ in $\mathrm{kJ} / \mathrm{mol}$",H,E,False,E
+biology,Which of the following would most likely provide examples of mitotic cell divisions?,B,A,False,A
+biology,The light reactions of photosynthesis supply the Calvin cycle with which of the following?,D,D,True,D
+biology,"In minks, the gene for brown fur (B) is dominant over the gene for silver fur (b). Which set of genotypes represents a cross that could produce offspring with silver fur from parents that both have brown fur?",C,C,True,C
+biology,"In reference to a segment of DNA, which of the following molecules contains the fewest number of nucleotides?",I,H,False,H
+biology,"Which group is composed entirely of individuals who maintained that species are fixed (i.e., unchanging)?",C,C,True,C
+biology,Which of the following statements is NOT correct about apoptosis?,A,B,False,B
+biology,The theory of evolution is most accurately described as,F,F,True,F
+biology,The principle inorganic compound found in living things is,F,C,False,C
+biology,"If two modern organisms are distantly related in an evolutionary sense, then one should expect that",H,F,False,F
+biology,Which of the following statements is not correct about lipids?,D,C,False,C
+biology,Which of the following statements about the immune system is NOT correct?,A,A,True,A
+biology,A reaction that includes energy as one of its reactants is called a(n),A,B,False,B
+biology,"Tay-Sachs is a disease caused by a recessive allele. Individuals with the genetic disorder usually do not survive more than a few years, and thus are not able to reproduce and pass on the gene. What would explain how this allele and its associated disease is preserved in the population?",G,C,False,C
+biology,A child with type A B blood inherits an IA allele from one parent and an IB allele from the other. The child will carry both A and B glycoproteins on the surface of all red blood cells. This pattern of expression is referred to as,E,E,True,E
+biology,A frameshift mutation is created when,D,B,False,B
+biology,"Cell motility, as viewed in a cultured fibroblast, encompasses all of the following EXCEPT",C,C,True,C
+biology,Mouse sperm contain receptor proteins that bind to a glycoprotein (ZP3) in the zona pellucida of mouse eggs. Binding of ZP3 receptors to ZP3 initiates the sperm’s acrosomal reaction. All of the following experimental observations would be expected EXCEPT:,A,C,False,C
+biology,Cancer cells grown in culture are similar to normal cells grown in culture in that they,I,B,False,B
+biology,Why is genetic drift less important in human evolution at present than it was twenty thousand or more years ago?,J,J,True,J
+biology,Describe briefly the characteristics of the ontogeny of a humanbeing from a zygote to a mature fetus. What is the significanceof this?,F,F,True,F
+biology,The frequency of the gene for sickle-cell anemia in African-Americans is less than that found in the people living in their ancestral home in Africa. What factors might account for this difference?,G,G,True,G
+biology,A gene C mutates to c with a frequency of 2 × 10^-6 per generation. There are no other forces acting on these alleles and mating is random. How many generations are needed to increase the frequency of gene c from 2 percent to 3 percent?,J,B,False,B
+biology,How are chromosomal breaks produced? What factors modify these breaks?,D,B,False,B
+biology,"In Caucasians the incidence of cystic fibrosis is about 1 in 2,000 births; but, among nonwhites the incidence is about 1 in 250,000 births. What would be the rate of incidence amongmatingsbetween Caucasians and nonwhites? If these offspring were to mate randomly among themselves, what incidence would be expected among their offspring?",I,A,False,A
+biology,What are enhancer sequences ?,E,E,True,E
+history,One of the less obvious reasons for the Inca to fight so many wars may have been:,D,A,False,A
+history,The most obvious material symbols of ancient state societies are:,D,D,True,D
+history,The ancient city of Cahokia contained more than _______ and a population of around _______.,C,C,True,C
+history,What did the Moche build at the heart of their urban center?,E,A,False,A
+history,The Shang Dynasty laid the foundation for a coherent development of Chinese civilization that lasted well into the:,G,H,False,H
+history,Recent discoveries of Homo naledi fossils in the Dinaledi Chamber of the Rising Star cave system in South Africa suggest a mixture of post-cranial morphologies or mosaic of hominid traits. One of the reasons this new species is controversial is that:,G,B,False,B
+history,"In primates, the location of which of the following determines if it is a quadruped or biped?",A,C,False,C
+history,Australian and America megafauna were probably wiped out by:,B,B,True,B
+history,"The fossil evidence indicates that by 1.8 million years ago, a new hominid known as _______ had evolved.",H,A,False,A
+history,"This question refers to the following information.
+""Since the foundations of the American commonwealth were laid in colonial times over 300 years ago, vigorous complaint and more or less bitter persecution have been aimed at newcomers to our shores. Also the congressional reports of about 1840 are full of abuse of English, Scotch, Welsh immigrants as paupers, criminals, and so forth. Old citizens in Detroit of Irish and German descent have told me of the fierce tirades and propaganda directed against the great waves of Irish and Germans who came over from 1840 on for a few decades to escape civil, racial, and religious persecution in their native lands. The ""Know-Nothings,"" lineal ancestors of the Ku-Klux Klan, bitterly denounced the Irish and Germans as mongrels, scum, foreigners, and a menace to our institutions, much as other great branches of the Caucasian race of glorious history and antecedents are berated to-day….But to-day it is the Italians, Spanish, Poles, Jews, Greeks, Russians, Balkanians, and so forth, who are the racial lepers…..In this bill we find racial discrimination at its worst—a deliberate attempt to go back 84 years in our census taken every 10 years so that a blow may be aimed at peoples of eastern and southern Europe, particularly at our recent allies in the Great War—Poland and Italy.""
+Robert H. Clancy, Congressional Record, 68th Congress, 1st Session, 1924
+Which one of the following legislative acts is most closely an example of nativism?",J,A,False,A
+history,"This question refers to the following information.
+""The law of love, peace and liberty in the states extending to Jews, Turks and Egyptians, as they are considered sonnes of Adam, which is the glory of the outward state of Holland, soe love, peace and liberty, extending to all in Christ Jesus, condemns hatred, war and bondage. And because our Saviour sayeth it is impossible but that offences will come, but woe unto him by whom they cometh, our desire is not to offend one of his little ones, in whatsoever form, name or title hee appears in, whether Presbyterian, Independent, Baptist or Quaker, but shall be glad to see anything of God in any of them, desiring to doe unto all men as we desire all men should doe unto us, which is the true law both of Church and State; for our Saviour sayeth this is the law and the prophets.
+""Therefore if any of these said persons come in love unto us, we cannot in conscience lay violent hands upon them, but give them free egresse and regresse unto our Town, and houses, as God shall persuade our consciences, for we are bounde by the law of God and man to doe good unto all men and evil to noe man. And this is according to the patent and charter of our Towne, given unto us in the name of the States General, which we are not willing to infringe, and violate, but shall houlde to our patent and shall remaine, your humble subjects, the inhabitants of Vlishing (Flushing, part of the colony of New Netherlands).""
+—The Flushing Remonstrance, 1657
+Which of the following was most significant in enshrining into the U.S. legal structure the ideas contained in the Flushing Remonstrance?",H,A,False,A
+history,"This question refers to the following information.
+""If you analyze it I believe the very heart and soul of conservatism is libertarianism. I think conservatism is really a misnomer just as liberalism is a misnomer for the liberals—if we were back in the days of the Revolution, so-called conservatives today would be the Liberals and the liberals would be the Tories. The basis of conservatism is a desire for less government interference or less centralized authority or more individual freedom and this is a pretty general description also of what libertarianism is. Now, I can't say that I will agree with all the things that the present group who call themselves Libertarians in the sense of a party say, because I think that like in any political movement there are shades, and there are libertarians who are almost over at the point of wanting no government at all or anarchy. I believe there are legitimate government functions. There is a legitimate need in an orderly society for some government to maintain freedom or we will have tyranny by individuals. The strongest man on the block will run the neighborhood. We have government to ensure that we don't each one of us have to carry a club to defend ourselves. But again, I stand on my statement that I think that libertarianism and conservatism are traveling the same path.""
+Ronald Reagan, Interview published in Reason magazine, 1975
+Which of the following groups would be most opposed to the sentiments expressed in the excerpt above?",A,B,False,B
+history,"This question refers to the following information.
+""Those whose condition is such that their function is the use of their bodies and nothing better can be expected of them, those, I say, are slaves of nature. It is better for them to be ruled thus.""
+Juan de Sepulveda, Politics, 1522
+""When Latin American nations gained independence in the 19th century, those two strains converged, and merged with an older, more universalist, natural law tradition. The result was a distinctively Latin American form of rights discourse. Paolo Carozza traces the roots of that discourse to a distinctive application, and extension, of Thomistic moral philosophy to the injustices of Spanish conquests in the New World. The key figure in that development seems to have been Bartolomé de Las Casas, a 16th-century Spanish bishop who condemned slavery and championed the cause of Indians on the basis of a natural right to liberty grounded in their membership in a single common humanity. 'All the peoples of the world are humans,' Las Casas wrote, and 'all the races of humankind are one.' According to Brian Tierney, Las Casas and other Spanish Dominican philosophers laid the groundwork for a doctrine of natural rights that was independent of religious revelation 'by drawing on a juridical tradition that derived natural rights and natural law from human rationality and free will, and by appealing to Aristotelian philosophy.'""
+Mary Ann Glendon, ""The Forgotten Crucible: The Latin American Influence on the Universal Human Rights Idea,” 2003
+Which one of the following statements about the Spanish conquest of the Americas is most accurate?",I,E,False,E
+history,"This question refers to the following information.
+Here is the case of a woman employed in the manufacturing department of a Broadway house. It stands for a hundred like her own. She averages three dollars a week. Pay is $1.50 for her room; for breakfast she has a cup of coffee; lunch she cannot afford. One meal a day is her allowance. This woman is young, she is pretty. She has ""the world before her."" Is it anything less than a miracle if she is guilty of nothing less than the ""early and improvident marriage,"" against which moralists exclaim as one of the prolific causes of the distresses of the poor? Almost any door might seem to offer a welcome escape from such slavery as this. ""I feel so much healthier since I got three square meals a day,"" said a lodger in one of the Girls' Homes. Two young sewing-girls came in seeking domestic service, so that they might get enough to eat. They had been only half-fed for some time, and starvation had driven them to the one door at which the pride of the American-born girl will not permit her to knock, though poverty be the price of her independence.
+—Jacob Riis, How the Other Half Lives, 1890
+The situation faced by the young women in the passage above is most directly comparable to which of the following?",B,D,False,D
+history,"This question refers to the following information.
+""We found that not only was it a civil war, an effort by a people who had for years been seeking their liberation from any colonial influence whatsoever, but also we found that the Vietnamese whom we had enthusiastically molded after our own image were hard put to take up the fight against the threat we were supposedly saving them from.
+""We found most people didn't even know the difference between communism and democracy. They only wanted to work in rice paddies without helicopters strafing them and bombs with napalm burning their villages and tearing their country apart. They wanted everything to do with the war, particularly with this foreign presence of the United States of America, to leave them alone in peace, and they practiced the art of survival by siding with whichever military force was present at a particular time, be it Viet Cong, North Vietnamese or American.""
+John Kerry, 1971
+Which of the following pairs of words best characterizes the differences between the approaches of Presidents Lyndon Johnson (1963–1969) and Richard Nixon (1969–1974) to the Vietnam conflict?",D,F,False,F
+history,"This question refers to the following information.
+Now, we have organized a society, and we call it ""Share Our Wealth Society,"" a society with the motto ""Every Man a King.""…
+We propose to limit the wealth of big men in the country. There is an average of $15,000 in wealth to every family in America. That is right here today.
+We do not propose to divide it up equally. We do not propose a division of wealth, but we do propose to limit poverty that we will allow to be inflicted on any man's family. We will not say we are going to try to guarantee any equality … but we do say that one third of the average is low enough for any one family to hold, that there should be a guarantee of a family wealth of around $5,000; enough for a home, an automobile, a radio, and the ordinary conveniences, and the opportunity to educate their children.…
+We will have to limit fortunes. Our present plan is that we will allow no man to own more than $50,000,000. We think that with that limit we will be able to carry out the balance of the program.
+—Senator Huey P. Long of Louisiana, Radio Address, February 23, 1934
+Senator Long's ""Share the Wealth Society"" attracted many followers in 1934 because",F,A,False,A
+history,"This question refers to the following information.
+""Those whose condition is such that their function is the use of their bodies and nothing better can be expected of them, those, I say, are slaves of nature. It is better for them to be ruled thus.""
+Juan de Sepulveda, Politics, 1522
+""When Latin American nations gained independence in the 19th century, those two strains converged, and merged with an older, more universalist, natural law tradition. The result was a distinctively Latin American form of rights discourse. Paolo Carozza traces the roots of that discourse to a distinctive application, and extension, of Thomistic moral philosophy to the injustices of Spanish conquests in the New World. The key figure in that development seems to have been Bartolomé de Las Casas, a 16th-century Spanish bishop who condemned slavery and championed the cause of Indians on the basis of a natural right to liberty grounded in their membership in a single common humanity. 'All the peoples of the world are humans,' Las Casas wrote, and 'all the races of humankind are one.' According to Brian Tierney, Las Casas and other Spanish Dominican philosophers laid the groundwork for a doctrine of natural rights that was independent of religious revelation 'by drawing on a juridical tradition that derived natural rights and natural law from human rationality and free will, and by appealing to Aristotelian philosophy.'""
+Mary Ann Glendon, ""The Forgotten Crucible: The Latin American Influence on the Universal Human Rights Idea,” 2003
+Which of the following presidents was most involved in Latin American politics in the twentieth century?",A,A,True,A) Theodore Roosevelt
+history,"This question refers to the following information.
+""The question, therefore, should be quickly settled, whether free colored persons, born and naturalized in this country, are not American citizens, and justly entitled to all the rights, privileges and immunities of citizens of the several states; and whether the Constitution of the United States makes or authorizes any invidious distinction with regard to the color or condition of free inhabitants.
+""For myself, I have not the shadow of doubt on the subject. I believe that the rights of the free colored persons need only to be vindicated before the U.S. Supreme Court, to be obtained; that no prejudice or sophistry . . . can prevent their acknowledgement . . . and that the present laws, affecting your condition, are clearly unconstitutional. The fact that you have been treated, by common consent and common usage, as aliens and brutes, is not proof that such treatment is legal, but only shows the strength, the bitterness, and the blindness of prejudice.""
+—William Lloyd Garrison, ""To the Free People of Color of the United States,"" The Liberator, January 15, 1831
+The argument put forth by William Lloyd Garrison in the passage was later contradicted in which of the following Supreme Court decisions?",J,D,False,D
+history,"This question refers to the following information.
+""In one view the slaveholders have a decided advantage over all opposition. It is well to notice this advantage—the advantage of complete organization. They are organized; and yet were not at the pains of creating their organizations. The State governments, where the system of slavery exists, are complete slavery organizations. The church organizations in those States are equally at the service of slavery; while the Federal Government, with its army and navy, from the chief magistracy in Washington, to the Supreme Court, and thence to the chief marshalship at New York, is pledged to support, defend, and propagate the crying curse of human bondage. The pen, the purse, and the sword, are united against the simple truth, preached by humble men in obscure places.""
+Frederick Douglass, 1857
+Frederick Douglass was most influenced by which of the following social movements?",A,D,False,D
+history,"This question refers to the following information.
+For the catastrophe of 1914 the Germans are responsible. … Germany, in this matter, was unfortunate enough to allow herself (in spite of her skill at dissimulation) to be betrayed into an excess of candour by her characteristic tendency to go to extremes. Deutschland über alles. Germany above everything! … There you have the ultimate framework of an old but childish race.
+Georges Clemenceau, Grandeur and Misery of Victory, 1930
+From the passage, one may infer that Clemenceau believed",C,G,False,G
+history,"This question refers to the following information.
+Read the documents below.
+Source 1
+If then by the Use of Machines, the Manufacture of Cotton, an Article which we import, and are supplied with from other Countries, and which can everywhere be procured on equal Terms, has met with such amazing Success, may not greater Advantages be reasonably expected from cultivating to the utmost the Manufacture of Wool, the Produce of our own Island, an Article in Demand in all Countries, almost the universal Clothing of Mankind?
+In the Manufacture of Woollens, the Scribbling Mill, the Spinning Frame, and the Fly Shuttle, have reduced manual Labour nearly One third, and each of them at its-first Introduction carried an Alarm to the Work People, yet each has contributed to advance the Wages and to increase the Trade, so that if an Attempt was now made to deprive us of the Use of them, there is no Doubt, but every Person engaged in the Business, would exert himself to defend them.
+—Statement by the Cloth Merchants of Leeds, 1791
+Source 2
+Come, cropper lads of high renown,
+Who love to drink good ale that's brown,
+And strike each haughty tyrant down,
+With hatchet, pike, and gun!
+Oh, the cropper lads for me,
+The gallant lads for me,
+Who with lusty stroke,
+The shear frames broke,
+The cropper lads for me!
+What though the specials still advance,
+And soldiers nightly round us prance;
+The cropper lads still lead the dance,
+With hatchet, pike, and gun!
+Oh, the cropper lads for me,
+The gallant lads for me,
+Who with lusty stroke
+The shear frames broke,
+The cropper lads for me!
+—Luddite Song, The Cropper's Song, c. 1812
+Which of the following economic theories is Source 1 above referencing in support of the expansion and use of machines?",H,G,False,G
+history,"This question refers to the following information.
+I am of opinion that the principal and true profession of the Courtier ought to be that of arms; which I would have him follow actively above all else, and be known among others as bold and strong, and loyal to whomsoever he serves. . . .
+I would have him well built and shapely of limb, and would have him show strength and lightness and suppleness, and know all bodily exercises that befit a man of war; whereof I think the first should be to handle every sort of weapon well on foot and on horse, to understand the advantages of each, and especially to be familiar with those weapons that are ordinarily used among gentlemen. . . .
+Our Courtier then will be esteemed excellent and will attain grace in everything, particularly in speaking. . . .
+I would have him more than passably accomplished in letters, at least in those studies that are called the humanities, and conversant not only with the Latin language but with the Greek, for the sake of the many different things that have been admirably written therein. Let him be well versed in the poets, and not less in the orators and historians, and also proficient in writing verse and prose, especially in this vulgar [vernacular] tongue of ours. . . .
+You must know that I am not content with the Courtier unless he be also a musician and unless, besides understanding and being able to read notes, he can play upon divers instruments. . . .
+I wish our Courtier to guard against getting the name of a liar or a boaster, which sometimes befalls even those who do not deserve it.
+—From Baldassare Castiglione's Book of the Courtier, 1528
+Which of the following skills that Castiglione recommends for a courtier would be valued LEAST by a European gentleman at the end of the twentieth century?",I,C,False,C
+history,"This question refers to the following information.
+""In 1500 that work appeared which Erasmus had written after his misfortune at Dover, and had dedicated to Mountjoy, the Adagiorum Collectanea. It was a collection of about eight hundred proverbial sayings drawn from the Latin authors of antiquity and elucidated for the use of those who aspired to write an elegant Latin style. In the dedication Erasmus pointed out the profit an author may derive, both in ornamenting his style and in strengthening his argumentation, from having at his disposal a good supply of sentences hallowed by their antiquity. He proposes to offer such a help to his readers. What he actually gave was much more. He familiarized a much wider circle than the earlier humanists had reached with the spirit of antiquity.
+Until this time the humanists had, to some extent, monopolized the treasures of classic culture, in order to parade their knowledge of which the multitude remained destitute, and so to become strange prodigies of learning and elegance. With his irresistible need of teaching and his sincere love for humanity and its general culture, Erasmus introduced the classic spirit, in so far as it could be reflected in the soul of a sixteenth-century Christian, among the people. Not he alone; but none more extensively and more effectively. Not among all the people, it is true, for by writing in Latin he limited his direct influence to the educated classes, which in those days were the upper classes.
+Erasmus made current the classic spirit. Humanism ceased to be the exclusive privilege of a few. According to Beatus Rhenanus he had been reproached by some humanists, when about to publish the Adagia, for divulging the mysteries of their craft. But he desired that the book of antiquity should be open to all.""
+Johan Huizinga, twentieth-century Dutch philosopher, Erasmus and the Age of Reformation, 1924
+According to Huizinga, Erasmus's legacy was more significant than that of earlier humanists because",I,H,False,H
+history,"This question refers to the following information.
+The following quote is from Voltaire in response to the 1755 Lisbon earthquake.
+My dear sir, nature is very cruel. One would find it hard to imagine how the laws of movement cause such frightful disasters in the best of possible worlds. A hundred thousand ants, our fellows, crushed all at once in our ant-hill, and half of them perishing, no doubt in unspeakable agony, beneath the wreckage from which they cannot be drawn. Families ruined all over Europe, the fortune of a hundred businessmen, your compatriots, swallowed up in the ruins of Lisbon. What a wretched gamble is the game of human life! What will the preachers say, especially if the palace of the Inquisition is still standing? I flatter myself that at least the reverend father inquisitors have been crushed like others. That ought to teach men not to persecute each other, for while a few holy scoundrels burn a few fanatics, the earth swallows up one and all.
+—Voltaire, in a letter, 1755
+Which of the following Enlightenment philosophes questioned reliance on reason and began the Romantic Movement for the rationale given?",B,D,False,D
+history,"This question refers to the following information.
+Read the list of complaints below.
+Article 3: Frenchmen should regard as laws of the kingdom those alone which have been prepared by the national assembly and sanctioned by the king.
+Article 11: Personal liberty, proprietary rights and the security of citizens shall be established in a clear, precise and irrevocable manner. All lettres de cachet shall be abolished forever, subject to certain modifications which the States General may see fit to impose.
+Article 12: And to remove forever the possibility of injury to the personal and proprietary rights of Frenchmen, the jury system shall be introduced in all criminal cases, and in civil cases for the determination of fact, in all the courts of the realm.
+Article 17: All distinctions in penalties shall be abolished; and crimes committed by citizens of the different orders shall be punished irrespectively, according to the same forms of law and in the same manner. The States General shall seek to bring it about that the effects of transgression shall be confined to the individual and shall not be reflected upon the relatives of the transgressor, themselves innocent of all participation.
+Article 21: No tax shall be legal unless accepted by the representatives of the people and sanctioned by the king.
+—Cahiers of the Third Estate of Versailles, 1789
+During the radical phase of the revolution, which of the following changes instituted by Robespierre was LEAST beneficial to the defense of France?",D,D,True,D
+health,Polio can be eradicated by which of the following?,E,E,True,E
+health,Which disease do polyomaviruses predominantly cause?,C,J,False,J
+health,Who discovered the first virus?,I,D,False,D
+health,Poliovirus can most easily become more virulent by which of the following processes?,F,B,False,B
+health,How do viruses of the calcivirus family replicate?,D,B,False,B
+health,"Viruses have encouraged us to change our world, as we have now:",E,B,False,B
+health,Which of the following releases most energy when completely oxidised in the body?,D,C,False,C
+health,"Using this formula, if a reaction was provided with 84g of ethane and unlimited oxygen, how many grams of carbon dioxide would result (Carbon atomic weight: 12amu, Hydrogen atomic weight: 1amu, Oxygen atomic weight: 16amu)?
+﻿
+The unbalanced reaction of ethane gas to carbon dioxide and water is as follows:
+
+ C2H4 + O2 —> CO2 + H2O",G,B,False,B
+health,An action potential arriving at the motor endplate causes release of:,D,D,True,D
+health,Which of the following is not an abnormal breathing pattern seen in head injury and altered conscious level?,B,B,True,B
+health,Removal of adhesive strips:,B,A,False,A
+health,Which is the most reliable way to assess for clubbing?,A,E,False,E
+health,Bronchial breathing is characterized by,G,A,False,A
+health,When you are taking a musculoskeletal history which of the following is true?,D,D,True,D
+health,The patient's self-report of pain is important because health care staff:,D,D,True,D
+health,The docility hypothesis is that,C,A,False,A
+health,In which dementia are cognitive symptoms less likely?,A,C,False,C
+health,Remarriages are,H,A,False,A
+health,An example of a discontinuous change over the adult years is the change in,G,A,False,A
+health,A problem for immune system theories of senescence is,A,A,True,A
+health,"Very rapid disposal of the body, before sundown on the day of the death, is typical of which religion?",C,B,False,B
+health,Which of the following is NOT among the top 10 causes of death in the U. S.?,E,B,False,B
+health,"Nature is more important for ______ differences, while nurture has greater influence on ______ differences.",B,A,False,A
+health,Which of the following anatomical regions of abdomen lies just distal to the sternum?,F,C,False,C
+health,The auditory tube,A,A,True,A

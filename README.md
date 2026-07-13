@@ -80,7 +80,7 @@ _(Remember to edit the correct path)_
 
 Multi-Agent Generative Inference System 
 | Type: Pseudo-OneShot
-| v1.1.0
+| v1.1.1
 | Alias: _Orchestrator_
 
 ## License

@@ -5,9 +5,8 @@ import sys
 # ------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------
-# Paths to the benchmark result files (both can coexist)
-PRO_CSV   = os.path.join("results", "mmlu_pro_benchmark_results.csv")
-NORMAL_CSV = os.path.join("results", "mmlu_normal_benchmark_results.csv")
+PRO_CSV   = os.path.join("results", "modal_magi_mmlu_pro_results_700.csv")
+NORMAL_CSV = os.path.join("results", "modal_magi_mmlu_results.csv")
 
 def load_and_analyze(csv_path, dataset_name):
     """Load a CSV, compute accuracy and return a summary DataFrame."""
@@ -17,21 +16,30 @@ def load_and_analyze(csv_path, dataset_name):
 
     df = pd.read_csv(csv_path, on_bad_lines='skip')
     
-    # Mark correct predictions
-    df['correct'] = df['correct_answer_letter'] == df['predicted_answer']
-
+    # Use the existing 'is_correct' column (already boolean)
+    # If it's not boolean, convert: df['is_correct'] = df['is_correct'].astype(bool)
     total = len(df)
-    correct = df['correct'].sum()
+    correct = df['is_correct'].sum()
     accuracy = (correct / total) * 100
-    avg_time = df['time_seconds'].mean()
 
-    # Group by category
+    # Time column is missing – we'll set avg_time to 0.0 and warn
+    if 'time_seconds' in df.columns:
+        avg_time = df['time_seconds'].mean()
+    else:
+        avg_time = 0.0
+        print(f"⚠️  Warning: No 'time_seconds' column in {dataset_name}. Skipping average time.")
+
+    # Group by category (using 'category' column)
     category_stats = df.groupby('category').agg(
-        total_questions=('correct', 'count'),
-        correct_answers=('correct', 'sum'),
-        accuracy=('correct', lambda x: (x.sum() / len(x)) * 100),
-        avg_time=('time_seconds', 'mean')
+        total_questions=('is_correct', 'count'),
+        correct_answers=('is_correct', 'sum'),
+        accuracy=('is_correct', lambda x: (x.sum() / len(x)) * 100),
+        avg_time=('time_seconds', 'mean') if 'time_seconds' in df.columns else ('is_correct', lambda x: 0.0)
     ).round(2)
+
+    # If time column missing, drop the avg_time column from category_stats
+    if 'time_seconds' not in df.columns:
+        category_stats = category_stats.drop(columns=['avg_time'])
 
     return total, accuracy, avg_time, category_stats
 
@@ -42,7 +50,10 @@ def print_results(total, accuracy, avg_time, category_stats, dataset_name):
     print("=" * 50)
     print(f"Total questions: {total}")
     print(f"General Accuracy: {accuracy:.2f}%")
-    print(f"Average time per question: {avg_time:.2f}s")
+    if avg_time > 0:
+        print(f"Average time per question: {avg_time:.2f}s")
+    else:
+        print("Average time: not available")
     print("=" * 50)
     print("\n📈 Breakdown by category:")
     print(category_stats)
@@ -51,16 +62,13 @@ def print_results(total, accuracy, avg_time, category_stats, dataset_name):
 # MAIN EXECUTION
 # ------------------------------------------------------------
 if __name__ == "__main__":
-    # Try to load both result files, if they exist
     pro_exists = os.path.exists(PRO_CSV)
     normal_exists = os.path.exists(NORMAL_CSV)
 
     if not pro_exists and not normal_exists:
         print("❌ No benchmark result files found in 'results/' folder.")
-        print("   Expected files: mmlu_pro_benchmark_results.csv or mmlu_normal_benchmark_results.csv")
         sys.exit(1)
 
-    # If both exist, print both. Otherwise, just print the one that exists.
     if pro_exists:
         total, acc, avg_t, stats = load_and_analyze(PRO_CSV, "MMLU Pro")
         if stats is not None:
