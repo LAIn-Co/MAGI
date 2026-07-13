@@ -1,0 +1,8 @@
+id,name,type,agent_id,creator_id,social,academic,emotional,aesthetic,linguistic,config_json,weights,context_memory,related_entities
+profile_social_specialist,profile_social_specialist,profile,social_specialist,,95,1,1,1,1,"{""temperature"": 0.7, ""repeat_penalty"": 1.05, ""frequency_penalty"": 0.5, ""model_type"": ""1b""}",,,
+profile_academic_specialist,profile_academic_specialist,profile,academic_specialist,,1,95,1,1,1,"{""temperature"": 0.2, ""repeat_penalty"": 1.4, ""frequency_penalty"": 0.7, ""model_type"": ""1b""}",,,
+profile_emotional_specialist,profile_emotional_specialist,profile,emotional_specialist,,1,1,95,1,1,"{""temperature"": 0.7, ""repeat_penalty"": 1.05, ""frequency_penalty"": 0.5, ""model_type"": ""1b""}",,,
+profile_aesthetic_specialist,profile_aesthetic_specialist,profile,aesthetic_specialist,,1,1,1,95,1,"{""temperature"": 0.6, ""repeat_penalty"": 1.1, ""frequency_penalty"": 0.3, ""model_type"": ""1b""}",,,
+profile_linguistic_specialist,profile_linguistic_specialist,profile,linguistic_specialist,,1,1,1,1,95,"{""temperature"": 0.6, ""repeat_penalty"": 1.1, ""frequency_penalty"": 0.3, ""model_type"": ""1b""}",,,
+profile_orchestrator,profile_orchestrator,profile,orchestrator,,40,40,40,40,40,"{""temperature"": 0.5, ""repeat_penalty"": 1.1, ""frequency_penalty"": 0.1, ""model_type"": ""1b""}",,,
+user_conversation,user_conversation,concept,,user,,,,,,,{},"[""Conversation start""]","[""user""]"

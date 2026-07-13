@@ -5,7 +5,6 @@ import sys
 from llama_cpp import Llama
 import sentence_transformers
 import matplotlib.pyplot as plt
-import render
 import pyvis
 import numpy as np
 import json
@@ -15,13 +14,14 @@ from af5_kbs import AF5KnowledgeBase, plot_networkx_graph, plot_radar
 from dynamic_graph import DynamicAF5Graph
 
 # ========== CONFIGURATION ==========
-VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nv1.1.0 "Orchestrator"'
+VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nv1.1.1 "Orchestrator"'
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-MAX_STEP_TOKENS = 8192
+GRAPH_PATH = os.getenv("MAGI_GRAPH_PATH", SCRIPT_DIR)
+MAX_STEP_TOKENS = 4086
 AUTO_INFER = True
 PATH_1B = 'pre_trained_models/Dolphin3.0-Llama3.2-1B-Q4_K_M.gguf'   # optional
 PATH_8B = 'pre_trained_models/Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf'   # optional
-MODEL = PATH_8B # <- put your model here
+MODEL = os.getenv("MAGI_MODEL_PATH", PATH_8B) # <- put your model here
 last_user_input = ""
 TRACE_MODE = False
 LIVE_GRAPH = False
@@ -60,7 +60,7 @@ model_registry = {"1b": llm_1b}
 
 kbs = AF5KnowledgeBase()
 embedder = sentence_transformers.SentenceTransformer('all-MiniLM-L6-v2')
-graph = DynamicAF5Graph(kbs, embedder, script_dir=SCRIPT_DIR)
+graph = DynamicAF5Graph(kbs, embedder, script_dir=GRAPH_PATH)
 
 current_agent_id = None
 profile = None
@@ -473,7 +473,7 @@ def handle_command(cmd):
             merged_count = graph.merge_similar_concepts(threshold=0.90, verbose=True)
 
             if LIVE_GRAPH==True:
-                    graph.generate_live_graph(script_dir=SCRIPT_DIR)
+                    graph.generate_live_graph(script_dir=graphs_dir)
 
             return f"✅ Merged {merged_count} pairs of concepts." 
         except Exception as e:
@@ -665,7 +665,7 @@ def handle_command(cmd):
         if triples:
             return f"Inferred {len(triples)} new relations:\n" + "\n".join([f"  {t}" for t in triples])
             if LIVE_GRAPH:
-                graph.generate_live_graph(script_dir=SCRIPT_DIR)
+                graph.generate_live_graph(script_dir=graphs_dir)
         else:
             return result
     
@@ -1035,7 +1035,7 @@ if __name__ == "__main__":
                     verbose=True,
                     log_func=log_interactive_round,
                     live_graph=LIVE_GRAPH,
-                    script_dir=SCRIPT_DIR,
+                    script_dir=graphs_dir,
                 )
             except Exception as e:
                 import traceback
@@ -1093,14 +1093,14 @@ if __name__ == "__main__":
                     triple_str = ", ".join([f"{t[0]} → {t[1]} → {t[2]}" for t in triples])
                     print(f"Done. Inferred {len(triples)} relations: {triple_str}")
                     if LIVE_GRAPH:
-                        graph.generate_live_graph(script_dir=SCRIPT_DIR)
+                        graph.generate_live_graph(script_dir=graphs_dir)
                     graph.merge_similar_concepts(threshold=0.90, verbose=True)
                 else:
                     print(f"Done. {result}")
                     graph.merge_similar_concepts(threshold=0.90, verbose=False)
 
                 if LIVE_GRAPH:
-                    graph.generate_live_graph(script_dir=SCRIPT_DIR)
+                    graph.generate_live_graph(script_dir=graphs_dir)
 
             except Exception as e:
                 print(f"Error during inference: {e}")
