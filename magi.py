@@ -2,6 +2,64 @@ import time
 import os
 import subprocess
 import sys
+# ============================================
+
+def check_system_specs():
+    """Check VRAM, RAM, CPU cores, and CPU frequency."""
+    try:
+        import psutil
+    except ImportError:
+        print("⚠️ psutil no está instalado. Corré: pip install psutil", file=sys.stderr)
+        return {}
+
+    specs = {}
+    specs['cpu_cores'] = psutil.cpu_count(logical=True)
+
+    try:
+        freq = psutil.cpu_freq()
+        specs['cpu_freq_mhz'] = int(freq.current) if freq else 0
+    except Exception:
+        specs['cpu_freq_mhz'] = 0
+
+    specs['ram_gb'] = round(psutil.virtual_memory().total / (1024**3), 1)
+
+    # Check GPU VRAM
+    try:
+        import pynvml
+        pynvml.nvmlInit()
+        handle = pynvml.nvmlDeviceGetHandleByIndex(0)
+        info = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        specs['gpu_vram_mb'] = round(info.total / (1024**2))
+        pynvml.nvmlShutdown()
+    except Exception:
+        # Fallback to nvidia-smi via subprocess (lo más común en Linux)
+        try:
+            result = subprocess.run(
+                ['nvidia-smi', '--query-gpu=memory.total', '--format=csv,noheader,nounits'],
+                capture_output=True, text=True, check=False, timeout=2
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                specs['gpu_vram_mb'] = int(result.stdout.strip())
+            else:
+                specs['gpu_vram_mb'] = 0
+        except Exception:
+            specs['gpu_vram_mb'] = 0
+    return specs
+
+# ==============================================================
+
+    
+# --- System check before loading heavy models ---
+specs = check_system_specs()
+print(f"""
+⚙️  HARDWARE CHECK
+-----------------
+CPU Cores   : {specs.get('cpu_cores', 'N/A')}
+CPU Freq    : {specs.get('cpu_freq_mhz', 0)} MHz
+RAM         : {specs.get('ram_gb', 0)} GB
+GPU VRAM    : {specs.get('gpu_vram_mb', 0)} MB
+""")
+# -------------------------------------------------
 from llama_cpp import Llama
 import sentence_transformers
 import matplotlib.pyplot as plt
@@ -76,8 +134,6 @@ ERROR_LOG_FILE = os.path.join(SCRIPT_DIR, ".logs", "error_log", f"error_log_{SES
 plots_dir, graphs_dir = os.path.join(SCRIPT_DIR, "results", "plots"), os.path.join(SCRIPT_DIR, "results", "graphs")
 os.makedirs(graphs_dir, exist_ok=True)
 os.makedirs(plots_dir, exist_ok=True)
-
-# ============================================
 
 def log_conversation(user_msg, assistant_msg):
     """Append a user/assistant exchange to the log file."""
@@ -988,6 +1044,8 @@ accordingly"""
 messages = [{"role": "system", "content": system_prompt}]
 
 if __name__ == "__main__":
+
+    print("Multi-Agent Chat started...")
     print("Multi-Agent Chat started. Six 8B_Q4_KM agents (5 specialists + orchestrator) ready.")
     print(f"Auto-infer is {'ON' if AUTO_INFER else 'OFF'}.")
     print("Type '/help' for commands.\n")
