@@ -17,7 +17,7 @@ from af5_kbs import AF5KnowledgeBase, plot_networkx_graph, plot_radar
 from dynamic_graph import DynamicAF5Graph
 
 # ========== CONFIGURATION ==========
-VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nalpha-v1.1.1 "Orchestrator"'
+VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nalpha-v1.1.2 "Orchestrator"'
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 GRAPH_PATH = os.getenv("MAGI_GRAPH_PATH", SCRIPT_DIR)
 MAX_STEP_TOKENS = 4086
@@ -55,8 +55,8 @@ os.makedirs(MODEL_DIR, exist_ok=True)
 
 MODEL_REGISTRY = {
     "tiny": {"repo_id": "bartowski/Llama-3.2-1B-Instruct-GGUF", "filename": "Llama-3.2-1B-Instruct-Q4_K_M.gguf", "min_vram_gb": 0, "description": "1B - CPU o VRAM baja"},
-    "small": {"repo_id": "bartowski/Dolphin3.0-Llama3.1-8B-GGUF", "filename": "Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf", "min_vram_gb": 6, "description": "8B Q4 - Balance perfecto"},
-    "medium": {"repo_id": "bartowski/Dolphin3.0-Llama3.1-8B-GGUF", "filename": "Dolphin3.0-Llama3.1-8B-Q8_0.gguf", "min_vram_gb": 10, "description": "8B Q8 - Alta precisión"},
+    "small": {"repo_id": "dphn/Dolphin3.0-Llama3.1-8B-GGUF", "filename": "Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf", "min_vram_gb": 6, "description": "8B Q4 - Balance perfecto"},
+    "medium": {"repo_id": "dphn/Dolphin3.0-Llama3.1-8B-GGUF", "filename": "Dolphin3.0-Llama3.1-8B-Q8_0.gguf", "min_vram_gb": 10, "description": "8B Q8 - Alta precisión"},
     "large": {"repo_id": "bartowski/Llama-3.1-70B-Instruct-GGUF", "filename": "Llama-3.1-70B-Instruct-Q4_K_M.gguf", "min_vram_gb": 40, "description": "70B - Nivel Dios"}
 }
 
@@ -96,7 +96,7 @@ def download_model_choice():
     try:
         model_path = hf_hub_download(
             repo_id=best_model['repo_id'], filename=best_model['filename'],
-            local_dir=MODEL_DIR, resume=True, token=token or None
+            local_dir=MODEL_DIR, token=token or None
         )
         print(f"✅ Descarga completada: {model_path}")
         return model_path
