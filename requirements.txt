@@ -24,6 +24,8 @@ modal==1.5.2
 networkx==3.6.1
 pandas==3.0.3
 path.py==12.5.0
+psutil==7.2.2
+pynvml==13.0.1
 pyodide==0.0.2
 pytest==9.1.1
 pyvis==0.3.2
@@ -32,6 +34,7 @@ render==1.0.0
 scikit_learn==1.9.0
 sentence_transformers==5.6.0
 Sphinx==9.1.0
+tqdm==4.68.3
 trove_classifiers==2026.6.1.19
 typing_extensions==4.16.0
 usercustomize==1.0.0
