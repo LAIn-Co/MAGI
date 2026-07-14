@@ -2,6 +2,9 @@ import time
 import os
 import subprocess
 import sys
+from huggingface_hub import hf_hub_download, login
+from tqdm import tqdm
+import psutil
 from llama_cpp import Llama
 import sentence_transformers
 import matplotlib.pyplot as plt
@@ -14,14 +17,103 @@ from af5_kbs import AF5KnowledgeBase, plot_networkx_graph, plot_radar
 from dynamic_graph import DynamicAF5Graph
 
 # ========== CONFIGURATION ==========
-VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nalpha-v1.1.1 "Orchestrator"'
+VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nalpha-v1.1.2 "Orchestrator"'
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 GRAPH_PATH = os.getenv("MAGI_GRAPH_PATH", SCRIPT_DIR)
 MAX_STEP_TOKENS = 4086
 AUTO_INFER = True
 PATH_1B = 'pre_trained_models/Dolphin3.0-Llama3.2-1B-Q4_K_M.gguf'   # optional
-PATH_8B = 'pre_trained_models/Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf'   # optional
-MODEL = os.getenv("MAGI_MODEL_PATH", PATH_8B) # <- put your model here
+PATH_8B = os.getenv("MAGI_MODEL_PATH", None)   # optional
+
+# ===== SYSTEM & MODEL HANDLER (AUTO-DOWNLOAD) =====
+def check_system_specs():
+    """Check VRAM, RAM, CPU cores, and CPU frequency."""
+    specs = {
+        "cpu_cores": psutil.cpu_count(logical=True),
+        "cpu_freq_mhz": int(psutil.cpu_freq().current) if psutil.cpu_freq() else 0,
+        "ram_gb": round(psutil.virtual_memory().total / (1024**3), 1),
+        "gpu_vram_mb": 0
+    }
+    try:
+        import pynvml
+        pynvml.nvmlInit()
+        handle = pynvml.nvmlDeviceGetHandleByIndex(0)
+        info = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        specs["gpu_vram_mb"] = round(info.total / (1024**2))
+        pynvml.nvmlShutdown()
+    except:
+        try:
+            result = subprocess.run(['nvidia-smi', '--query-gpu=memory.total', '--format=csv,noheader,nounits'], capture_output=True, text=True, timeout=2)
+            if result.returncode == 0 and result.stdout.strip():
+                specs["gpu_vram_mb"] = int(result.stdout.strip())
+        except: pass
+    specs["gpu_vram_gb"] = round(specs["gpu_vram_mb"] / 1024, 1)
+    return specs
+
+MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pre_trained_models")
+os.makedirs(MODEL_DIR, exist_ok=True)
+
+MODEL_REGISTRY = {
+    "tiny": {"repo_id": "bartowski/Llama-3.2-1B-Instruct-GGUF", "filename": "Llama-3.2-1B-Instruct-Q4_K_M.gguf", "min_vram_gb": 0, "description": "1B - CPU o VRAM baja"},
+    "small": {"repo_id": "dphn/Dolphin3.0-Llama3.1-8B-GGUF", "filename": "Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf", "min_vram_gb": 6, "description": "8B Q4 - Balance perfecto"},
+    "medium": {"repo_id": "dphn/Dolphin3.0-Llama3.1-8B-GGUF", "filename": "Dolphin3.0-Llama3.1-8B-Q8_0.gguf", "min_vram_gb": 10, "description": "8B Q8 - Alta precisión"},
+    "large": {"repo_id": "bartowski/Llama-3.1-70B-Instruct-GGUF", "filename": "Llama-3.1-70B-Instruct-Q4_K_M.gguf", "min_vram_gb": 40, "description": "70B - Nivel Dios"}
+}
+
+def select_best_fit(specs):
+    vram = specs["gpu_vram_gb"]
+    if vram < 1: return "tiny"
+    if vram >= 40: return "large"
+    if vram >= 10: return "medium"
+    if vram >= 6: return "small"
+    return "tiny"
+
+def download_model_choice():
+    print("\n🔍 Chequeando sistema...")
+    specs = check_system_specs()
+    print(f"   💻 CPU: {specs['cpu_cores']} cores @ {specs['cpu_freq_mhz']}MHz")
+    print(f"   🧠 RAM: {specs['ram_gb']} GB")
+    print(f"   🎮 VRAM: {specs['gpu_vram_gb']} GB")
+
+    best_fit_key = select_best_fit(specs)
+    best_model = MODEL_REGISTRY[best_fit_key]
+    print(f"⚡ Modelo sugerido: '{best_fit_key}' ({best_model['description']})")
+    
+    local_path = os.path.join(MODEL_DIR, best_model["filename"])
+    if os.path.exists(local_path):
+        print(f"✅ Modelo ya descargado en: {local_path}")
+        return local_path
+
+    resp = input("\n¿Querés descargar este modelo de Hugging Face? (y/n): ").lower()
+    if resp != 'y':
+        print("❌ Descarga cancelada.")
+        return None
+
+    token = input("Ingresá tu Hugging Face Token (si es público, Enter): ").strip()
+    if token: login(token)
+
+    print(f"\n⬇️  Descargando {best_model['filename']}...")
+    try:
+        model_path = hf_hub_download(
+            repo_id=best_model['repo_id'], filename=best_model['filename'],
+            local_dir=MODEL_DIR, token=token or None
+        )
+        print(f"✅ Descarga completada: {model_path}")
+        return model_path
+    except Exception as e:
+        print(f"❌ Error al descargar: {e}")
+        return None
+
+# --- EJECUCIÓN DEL DOWNLOADER ---
+downloaded_model_path = download_model_choice()
+if downloaded_model_path:
+    PATH_8B = downloaded_model_path
+elif not PATH_8B:
+    print("❌ No hay modelo disponible y la descarga se canceló. Saliendo...")
+    sys.exit(1)
+
+# Al final, definimos la variable MODEL que usará el script
+MODEL = os.getenv("MAGI_MODEL_PATH", PATH_8B)
 last_user_input = ""
 TRACE_MODE = False
 LIVE_GRAPH = False
@@ -76,8 +168,6 @@ ERROR_LOG_FILE = os.path.join(SCRIPT_DIR, ".logs", "error_log", f"error_log_{SES
 plots_dir, graphs_dir = os.path.join(SCRIPT_DIR, "results", "plots"), os.path.join(SCRIPT_DIR, "results", "graphs")
 os.makedirs(graphs_dir, exist_ok=True)
 os.makedirs(plots_dir, exist_ok=True)
-
-# ============================================
 
 def log_conversation(user_msg, assistant_msg):
     """Append a user/assistant exchange to the log file."""
@@ -988,6 +1078,8 @@ accordingly"""
 messages = [{"role": "system", "content": system_prompt}]
 
 if __name__ == "__main__":
+
+    print("Multi-Agent Chat started...")
     print("Multi-Agent Chat started. Six 8B_Q4_KM agents (5 specialists + orchestrator) ready.")
     print(f"Auto-infer is {'ON' if AUTO_INFER else 'OFF'}.")
     print("Type '/help' for commands.\n")

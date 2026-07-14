@@ -228,6 +228,7 @@ af5_chroma_db/
 pre_trained_models/
 past_versions/
 models/
+old_pre_trained_models/
 
 # Logs y archivos generados automáticamente
 .logs/
