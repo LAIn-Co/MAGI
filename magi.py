@@ -14,7 +14,7 @@ from af5_kbs import AF5KnowledgeBase, plot_networkx_graph, plot_radar
 from dynamic_graph import DynamicAF5Graph
 
 # ========== CONFIGURATION ==========
-VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nv1.1.1 "Orchestrator"'
+VERSION = 'Multi-Agent Generative Inference System\nType: Pseudo-OneShot\nalpha-v1.1.1 "Orchestrator"'
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 GRAPH_PATH = os.getenv("MAGI_GRAPH_PATH", SCRIPT_DIR)
 MAX_STEP_TOKENS = 4086
