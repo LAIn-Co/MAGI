@@ -35,7 +35,7 @@ MAGI is a modular, ontology-driven multi-agent framework for complex reasoning a
     pip install -r requirements.txt
     ```
 
-4. (_Optional but required to run locally_) Download a GGUF model (e.g., Llama-3.1-8B or Llama-3.2-1B) and place it inside the pre_trained_models/ folder.
+4. (_Optional but required to run not listed models_) Download a GGUF model (e.g., Llama-3.1-8B or Llama-3.2-1B) and place it inside the pre_trained_models/ folder.
 
 
 ## Usage
